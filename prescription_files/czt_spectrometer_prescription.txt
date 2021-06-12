@@ -1,0 +1,495 @@
+System/Prescription Data
+
+File : C:\Users\nh\repos\LensLibrary\zemax_files\czt_spectrometer.zmx
+Title: 
+Date : 6/12/2021
+
+
+GENERAL LENS DATA:
+
+Surfaces                : 	              12
+Stop                    : 	               6
+System Aperture         : 	Object Space NA = 	0.05
+Fast Semi-Diameters     :	On 
+Field Unpolarized       :	On
+Convert thin film phase to ray equivalent :	On 
+J/E Conversion Method   :	X Axis Reference  
+Glass Catalogs          : 	SCHOTT INFRARED
+Ray Aiming              :	Off
+Apodization             : 	Uniform, factor = 	  0.00000E+000
+Reference OPD           :	Exit Pupil  
+Paraxial Rays Setting   :	Ignore Coordinate Breaks  
+Method to Compute F/#   :	Tracing Rays  
+Print Coordinate Breaks :	On
+Multi-Threading         :	On
+OPD Modulo 2 Pi         :	Off
+Temperature (C)         : 	   2.00000E+001
+Pressure (ATM)          : 	   1.00000E+000
+Adjust Index Data To Environment  :	Off
+Effective Focal Length  :	        594.5506	(in air at system temperature and pressure)
+Effective Focal Length  :	        594.5506	(in image space)
+Back Focal Length       :	        394.5506
+Total Track             :	        219.2421
+Image Space F/#         :	        5.073268
+Paraxial Working F/#    :	        10.31073
+Working F/#             :	        9.762459
+Image Space NA          :	      0.04843626
+Object Space NA         :	            0.05
+Stop Radius             :	         9.85558
+Paraxial Image Height   :	               0
+Paraxial Magnification  :	               0
+Entrance Pupil Diameter :	        117.1928
+Entrance Pupil Position :	        1170.462
+Exit Pupil Diameter     :	        193.4529
+Exit Pupil Position     :	        1778.609
+Field Type              : 	Object height in Millimeters
+Maximum Radial Field    :	               0
+Primary Wavelength [µm] :	            0.55
+Angular Magnification   :	               0
+Lens Units              :	   Millimeters
+Source Units            :	   Watts 
+Analysis Units          :	   Watts/cm^2 
+Afocal Mode Units       :	   milliradians
+MTF Units               :	   cycles/millimeter 
+Include Calculated Data in Session File  :	On 
+ 
+Fields          : 1
+Field Type              : 	Object height in Millimeters
+ #  	   X-Value     	  Y-Value     	   Weight
+ 1 	      0.000000 	      0.000000 	      1.000000
+ 
+Vignetting Factors
+ #     	VDX     	VDY     	VCX     	VCY     	VAN
+ 1 	 0.000000 	 0.000000 	 0.000000 	 0.000000 	 0.000000
+ 
+Wavelengths     : 3
+Units: µm
+ #       	Value       	Weight
+ 1 	      0.450000 	      1.000000
+ 2 	      0.550000 	      1.000000
+ 3 	      0.650000 	      1.000000
+ 
+SURFACE DATA SUMMARY:
+
+Surf       	Type        	Radius        	Thickness           	Glass        	Diameter        	Conic        	Comment
+ OBJ	 STANDARD	       Infinity	              0	                     	             0	              0	 mask at f/10
+   1	 STANDARD	       Infinity	       181.3611	                     	             0	              0	 
+   2	 COORDBRK	              -	              0	                     	             -	              -	 y-offset
+   3	 STANDARD	           -400	              0	               MIRROR	            50	              0	 collimator
+   4	 COORDBRK	              -	      -166.3611	                     	             -	              -	 undo y-offset
+   5	 COORDBRK	              -	              0	                     	             -	              -	 grating tilt/decent
+ STO	 DGRATING	       Infinity	              0	               MIRROR	            50	              0	 flat grating
+   7	 COORDBRK	              -	       166.3611	                     	             -	              -	 untilt from grating
+   8	 COORDBRK	              -	              0	                     	             -	              -	 decent to chief ray
+   9	 COORDBRK	              -	              0	                     	             -	              -	 y-offset
+  10	 STANDARD	           -400	              0	               MIRROR	            50	              0	 re-imager
+  11	 COORDBRK	              -	      -219.2421	                     	             -	              -	 decent to chief ray
+ IMA	 STANDARD	       Infinity	               	                     	      28.07709	              0	 detector
+ 
+
+
+SURFACE DATA DETAIL:
+
+Surface OBJ STANDARD mask at f/10
+
+Surface   1 STANDARD 
+
+Surface   2 COORDBRK y-offset
+Decenter X               :                0
+Decenter Y               :               60
+Tilt About X             :                0
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   3 STANDARD collimator
+Mirror Substrate         : Curved, Thickness = 1.00000E+000
+Aperture                 : Circular Aperture
+Minimum Radius           :                0
+Maximum Radius           :               25
+X- Decenter              :                0
+Y- Decenter              :              -60
+
+Surface   4 COORDBRK undo y-offset
+Decenter X               :                0
+Decenter Y               :              -60
+Tilt About X             :                0
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   5 COORDBRK grating tilt/decent
+Decenter X               :                0
+Decenter Y               :        50.263206
+Tilt About X             :              -10
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface STO DGRATING flat grating
+Mirror Substrate         : Curved, Thickness = 1.00000E+000
+Lines / µm               :              0.6
+Diffraction Order        :               -1
+Aperture                 : Floating Aperture
+Maximum Radius           :               25
+
+Surface   7 COORDBRK untilt from grating
+Decenter X               :                0
+Decenter Y               :                0
+Tilt About X             :               10
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   8 COORDBRK decent to chief ray
+Decenter X               :                0
+Decenter Y               :        51.975686
+Tilt About X             :                0
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   9 COORDBRK y-offset
+Decenter X               :                0
+Decenter Y               :              -60
+Tilt About X             :                0
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  10 STANDARD re-imager
+Mirror Substrate         : Curved, Thickness = 1.00000E+000
+Aperture                 : Circular Aperture
+Minimum Radius           :                0
+Maximum Radius           :               25
+X- Decenter              :                0
+Y- Decenter              :               60
+
+Surface  11 COORDBRK decent to chief ray
+Decenter X               :                0
+Decenter Y               :        58.612573
+Tilt About X             :                0
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface IMA STANDARD detector
+ 
+EDGE THICKNESS DATA:
+
+Surf        	 X-Edge        	 Y-Edge
+ OBJ 	      0.000000 	      0.000000
+   1 	    181.361149 	    181.361149
+   2 	     -0.782014 	     -0.782014
+   3 	      0.782014 	      0.782014
+   4 	   -166.361149 	   -166.361149
+   5 	      0.000000 	      0.000000
+ STO 	      0.000000 	      0.000000
+   7 	    166.361149 	    166.361149
+   8 	      0.000000 	      0.000000
+   9 	     -0.782014 	     -0.782014
+  10 	      0.782014 	      0.782014
+  11 	   -219.242080 	   -219.242080
+ IMA 	      0.000000 	      0.000000
+ 
+SOLVE AND VARIABLE DATA:
+
+ Thickness of   1       : Variable
+ Semi Diameter   3      : Fixed
+ Thickness of   4       : Solve, Pickup from surface 1 scaled by -1, offset by 15
+ Parameter  2 Surf   4  : Solve, Pickup from surface 2 scaled by -1, offset by 0
+ Parameter  2 Surf   5  : Solve, Chief ray follow field 1, wavelength 2
+ Semi Diameter   6      : Fixed
+ Thickness of   7       : Solve, Pickup from surface 4 scaled by -1, offset by 0
+ Parameter  3 Surf   7  : Solve, Pickup from surface 5 scaled by -1, offset by 0
+ Parameter  2 Surf   8  : Solve, Chief ray follow field 1, wavelength 2
+ Parameter  2 Surf   9  : Solve, Pickup from surface 4 scaled by 1, offset by 0
+ Curvature of  10       : Solve, Pickup from surface 3 scaled by 1
+ Semi Diameter  10      : Fixed
+ Thickness of  11       : Solve, Marginal ray height = 0 at pupil zone 0
+ Parameter  2 Surf  11  : Solve, Chief ray follow field 1, wavelength 2
+ 
+INDEX OF REFRACTION DATA:
+
+System Temperature:   20.0000 Celsius
+System Pressure   :    1.0000 Atmospheres
+Absolute air index:    1.000273 at wavelength 0.550000 µm
+Index data is relative to air at the system temperature and pressure.
+Wavelengths are measured in air at the system temperature and pressure.
+ 
+Surf                 	 Glass 	   Temp      	Pres  	   0.45000000	   0.55000000	   0.65000000
+   0 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   1 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   2 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+   3 	                MIRROR 	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   4 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+   5 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+   6 	                MIRROR 	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   7 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+   8 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+   9 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+  10 	                MIRROR 	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+  11 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	
+  12 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+ 
+THERMAL COEFFICIENT OF EXPANSION DATA:
+
+Surf                  	 Glass     	   TCE * 10E-6
+  0  	                         	  0.0000000000
+  1  	                         	  0.0000000000
+  2 	               <CRD BRK>  	  0.0000000000
+  3  	                MIRROR   	  0.0000000000
+  4 	               <CRD BRK>  	  0.0000000000
+  5 	               <CRD BRK>  	  0.0000000000
+  6  	                MIRROR   	  0.0000000000
+  7 	               <CRD BRK>  	  0.0000000000
+  8 	               <CRD BRK>  	  0.0000000000
+  9 	               <CRD BRK>  	  0.0000000000
+ 10  	                MIRROR   	  0.0000000000
+ 11 	               <CRD BRK>  	  0.0000000000
+ 12  	                         	  0.0000000000
+ 
+GLOBAL VERTEX COORDINATES, ORIENTATIONS, AND ROTATION/OFFSET MATRICES:
+
+Reference Surface: 1
+
+Surf           	R11           	R12            	R13                 	X          	   Tilt X
+               	R21            	R22            	R23                 	Y          	   Tilt Y
+               	R31            	R32            	R33                 	Z          	   Tilt Z
+
+  0 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	mask at f/10
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 0.000000000E+000 	 0.000000000E+000
+
+  1 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 0.000000000E+000 	 0.000000000E+000
+
+  2 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	y-offset
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 6.000000000E+001 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+  3 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	collimator
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 6.000000000E+001 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+  4 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	undo y-offset
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+  5 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	-1.000000000E+001 	grating tilt/decent
+    	  0.0000000000 	  0.9848077530 	  0.1736481777 	 5.026320621E+001 	 0.000000000E+000
+    	  0.0000000000 	 -0.1736481777 	  0.9848077530 	 1.500000000E+001 	 0.000000000E+000
+
+  6 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	-1.000000000E+001 	flat grating
+    	  0.0000000000 	  0.9848077530 	  0.1736481777 	 5.026320621E+001 	 0.000000000E+000
+    	  0.0000000000 	 -0.1736481777 	  0.9848077530 	 1.500000000E+001 	 0.000000000E+000
+
+  7 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	untilt from grating
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 5.026320621E+001 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.500000000E+001 	 0.000000000E+000
+
+  8 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	decent to chief ray
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 1.022388920E+002 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+  9 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	y-offset
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 4.223889203E+001 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+ 10 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	re-imager
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 4.223889203E+001 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+ 11 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	decent to chief ray
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 1.008514650E+002 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.813611490E+002 	 0.000000000E+000
+
+ 12 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	detector
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 1.008514650E+002 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	-3.788093107E+001 	 0.000000000E+000
+
+ 
+GLOBAL SURFACE CENTER OF CURVATURE POINTS:
+
+Reference Surface: 1
+
+Surf             	X              	Y              	Z
+  0              	-              	-              	- 	mask at f/10
+  1              	-              	-              	- 	
+  2              	-              	-              	- 	y-offset
+  3 	  0.0000000000 	 60.0000000000 	-218.6388509638 	collimator
+  4              	-              	-              	- 	undo y-offset
+  5              	-              	-              	- 	grating tilt/decent
+  6              	-              	-              	- 	flat grating
+  7              	-              	-              	- 	untilt from grating
+  8              	-              	-              	- 	decent to chief ray
+  9              	-              	-              	- 	y-offset
+ 10 	  0.0000000000 	 42.2388920315 	-218.6388509638 	re-imager
+ 11              	-              	-              	- 	decent to chief ray
+ 12              	-              	-              	- 	detector
+ 
+ELEMENT VOLUME DATA:
+
+For centered elements with plane or spherical circular faces, exact
+volumes are computed by assuming edges are squared up to the larger
+of the front and back radial aperture.
+
+For all other elements, approximate volumes are numerically integrated
+to 0.1% accuracy. Zero volume means the volume cannot be accurately computed.
+
+Single elements that are duplicated in the Lens Data Editor
+for ray tracing purposes may be listed more than once yielding
+incorrect total mass estimates.
+
+                            	 Volume cc   	Density g/cc       	Mass g
+Total Mass:                                           	      0.000000
+ 
+F/# DATA:
+
+F/# calculations consider vignetting factors and ignore surface apertures.
+
+     Wavelength:	     	    0.450000    	     	    0.550000    	     	    0.650000    	
+#	            Field       	Tan       	Sag      	Tan       	Sag      	Tan       	Sag
+1	   0.0000, 0.0000 mm:	   9.2308 	  10.4913	   9.2069 	  10.4324	   9.2049 	  10.3854
+ 
+CARDINAL POINTS:
+
+Object space positions are measured with respect to surface 1.
+Image space positions are measured with respect to the image surface.
+The index in both the object space and image space is considered.
+
+                                 	Object Space           	Image Space
+W = 	0.450000	
+Focal Length          : 	        -594.550629 	        -594.550629
+Focal Planes          : 	         575.911778 	         613.792709
+Principal Planes      : 	        1170.462407 	        1208.343338
+Anti-Principal Planes : 	         -18.638851 	          19.242080
+Nodal Planes          : 	         -18.638851 	          19.242080
+Anti-Nodal Planes     : 	        1170.462407 	        1208.343338
+
+W = 	0.550000	(Primary)
+Focal Length          : 	        -594.550629 	        -594.550629
+Focal Planes          : 	         575.911778 	         613.792709
+Principal Planes      : 	        1170.462407 	        1208.343338
+Anti-Principal Planes : 	         -18.638851 	          19.242080
+Nodal Planes          : 	         -18.638851 	          19.242080
+Anti-Nodal Planes     : 	        1170.462407 	        1208.343338
+
+W = 	0.650000	
+Focal Length          : 	        -594.550629 	        -594.550629
+Focal Planes          : 	         575.911778 	         613.792709
+Principal Planes      : 	        1170.462407 	        1208.343338
+Anti-Principal Planes : 	         -18.638851 	          19.242080
+Nodal Planes          : 	         -18.638851 	          19.242080
+Anti-Nodal Planes     : 	        1170.462407 	        1208.343338
+ 
+PHYSICAL OPTICS PROPAGATION SETTINGS SUMMARY:
+
+ OBJ STANDARD        mask at f/10
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   1 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   2 COORDBRK            y-offset
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   3 STANDARD          collimator
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   4 COORDBRK       undo y-offset
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   5 COORDBRK grating tilt/decent
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ STO DGRATING        flat grating
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   7 COORDBRK untilt from grating
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   8 COORDBRK decent to chief ray
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   9 COORDBRK            y-offset
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  10 STANDARD           re-imager
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  11 COORDBRK decent to chief ray
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ IMA STANDARD            detector
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ 
+FILES USED:
+
+Zemax File
+  C:\Users\nh\repos\LensLibrary\zemax_files\czt_spectrometer.zmx
+Session File
+  C:\Users\nh\repos\LensLibrary\zemax_files\czt_spectrometer.ZDA
+Lens Configuration File
+  C:\Users\nh\repos\LensLibrary\zemax_files\czt_spectrometer.CFG
+Glass Catalogs
+  C:\Users\nh\Documents\Zemax\GLASSCAT\SCHOTT.AGF
+  C:\Users\nh\Documents\Zemax\GLASSCAT\INFRARED.AGF
+Coating Data
+  C:\Users\nh\Documents\Zemax\COATINGS\COATING.DAT
+ABg Data
+  C:\Users\nh\Documents\Zemax\ABG_DATA\ABG_DATA.DAT
