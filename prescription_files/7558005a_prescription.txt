@@ -1,0 +1,477 @@
+System/Prescription Data
+
+File : C:\Users\nh\repos\LensLibrary\zemax_files\7558005a.zmx
+Title: Yasuhiko 2009
+Date : 6/12/2021
+
+
+GENERAL LENS DATA:
+
+Surfaces                : 	              11
+Stop                    : 	               1
+System Aperture         : 	Entrance Pupil Diameter = 	1.54
+Fast Semi-Diameters     :	On 
+Field Unpolarized       :	On
+Convert thin film phase to ray equivalent :	On 
+J/E Conversion Method   :	X Axis Reference  
+Glass Catalogs          : 	SCHOTT
+Ray Aiming              :	Off
+Apodization             : 	Uniform, factor = 	  0.00000E+000
+Reference OPD           :	Exit Pupil  
+Paraxial Rays Setting   :	Ignore Coordinate Breaks  
+Method to Compute F/#   :	Tracing Rays  
+Print Coordinate Breaks :	On
+Multi-Threading         :	On
+OPD Modulo 2 Pi         :	Off
+Temperature (C)         : 	   2.00000E+001
+Pressure (ATM)          : 	   1.00000E+000
+Adjust Index Data To Environment  :	Off
+Effective Focal Length  :	         4.55419	(in air at system temperature and pressure)
+Effective Focal Length  :	         4.55419	(in image space)
+Back Focal Length       :	        0.456784
+Total Track             :	             4.9
+Image Space F/#         :	        2.957266
+Paraxial Working F/#    :	        2.957266
+Working F/#             :	        2.939659
+Image Space NA          :	       0.1667091
+Object Space NA         :	        7.7e-011
+Stop Radius             :	            0.77
+Paraxial Image Height   :	        2.867926
+Paraxial Magnification  :	               0
+Entrance Pupil Diameter :	            1.54
+Entrance Pupil Position :	               0
+Exit Pupil Diameter     :	        1.193991
+Exit Pupil Position     :	       -3.524166
+Field Type              : 	Angle in degrees
+Maximum Radial Field    :	            32.2
+Primary Wavelength [µm] :	       0.5875618
+Angular Magnification   :	        1.289792
+Lens Units              :	   Millimeters
+Source Units            :	   Watts 
+Analysis Units          :	   Watts/cm^2 
+Afocal Mode Units       :	   milliradians
+MTF Units               :	   cycles/millimeter 
+Include Calculated Data in Session File  :	On 
+ 
+Fields          : 3
+Field Type              : 	Angle in degrees
+ #  	   X-Value     	  Y-Value     	   Weight
+ 1 	      0.000000 	      0.000000 	      1.000000
+ 2 	      0.000000 	     22.000000 	      1.000000
+ 3 	      0.000000 	     32.200000 	      1.000000
+ 
+Vignetting Factors
+ #     	VDX     	VDY     	VCX     	VCY     	VAN
+ 1 	 0.000000 	 0.000000 	 0.000000 	 0.000000 	 0.000000
+ 2 	 0.000000 	 0.000000 	 0.000000 	 0.000000 	 0.000000
+ 3 	 0.000000 	 0.000000 	 0.000000 	 0.000000 	 0.000000
+ 
+Wavelengths     : 3
+Units: µm
+ #       	Value       	Weight
+ 1 	      0.486133 	      1.000000
+ 2 	      0.587562 	      1.000000
+ 3 	      0.656273 	      1.000000
+ 
+SURFACE DATA SUMMARY:
+
+Surf       	Type        	Radius        	Thickness           	Glass        	Diameter        	Conic        	Comment
+ OBJ	 STANDARD	       Infinity	       Infinity	                     	             0	              0	 
+ STO	 EVENASPH	         1.4775	          0.593	 1.690080, 53.200000	      1.932624	       0.463216	 
+   2	 EVENASPH	         5.0682	          0.164	                     	      1.841812	              0	 
+   3	 EVENASPH	        -6.8347	            0.4	 1.632000, 23.400000	      1.820729	              0	 
+   4	 EVENASPH	         7.8732	          0.631	                     	      1.749185	       14.78157	 
+   5	 EVENASPH	        -2.1226	            0.5	 1.533180, 57.000000	      2.003109	       1.095637	 
+   6	 EVENASPH	        -1.5412	          0.748	                     	      2.477982	       0.302832	 
+   7	 EVENASPH	        -4.7352	            0.7	 1.533180, 57.000000	      3.720617	       1.427579	 
+   8	 EVENASPH	        11.3275	          0.414	                     	      4.348726	              0	 
+   9	 STANDARD	       Infinity	            0.3	 1.516800, 64.200000	           5.4	              0	 
+  10	 STANDARD	       Infinity	           0.45	                     	           5.4	              0	 
+ IMA	 STANDARD	       Infinity	               	                     	      5.712059	              0	 
+ 
+
+
+SURFACE DATA DETAIL:
+
+Surface OBJ STANDARD 
+
+Surface STO EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :       -0.0160433
+Coefficient on r^ 6      :        0.0109091
+Coefficient on r^ 8      :        -0.036842
+Coefficient on r^10      :        0.0195185
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   2 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :       -0.0286002
+Coefficient on r^ 6      :      -0.00100935
+Coefficient on r^ 8      :      -0.00118821
+Coefficient on r^10      :     -0.000757342
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   3 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :        0.0250805
+Coefficient on r^ 6      :       -0.0294566
+Coefficient on r^ 8      :        0.0926425
+Coefficient on r^10      :       -0.0925863
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   4 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :         0.123512
+Coefficient on r^ 6      :        0.0766502
+Coefficient on r^ 8      :       -0.0503755
+Coefficient on r^10      :         0.108034
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   5 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :       -0.0415616
+Coefficient on r^ 6      :       0.00288804
+Coefficient on r^ 8      :        0.0171083
+Coefficient on r^10      :       -0.0100904
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   6 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :        0.0246892
+Coefficient on r^ 6      :      -0.00283931
+Coefficient on r^ 8      :          0.02873
+Coefficient on r^10      :     7.57955e-005
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   7 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :       -0.0380804
+Coefficient on r^ 6      :        0.0129103
+Coefficient on r^ 8      :     -0.000406847
+Coefficient on r^10      :     -0.000101415
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   8 EVENASPH 
+Coefficient on r^ 2      :                0
+Coefficient on r^ 4      :       -0.0499104
+Coefficient on r^ 6      :       0.00734534
+Coefficient on r^ 8      :      -0.00143693
+Coefficient on r^10      :      0.000112715
+Coefficient on r^12      :                0
+Coefficient on r^14      :                0
+Coefficient on r^16      :                0
+
+Surface   9 STANDARD 
+Aperture                 : Floating Aperture
+Maximum Radius           :              2.7
+
+Surface  10 STANDARD 
+Aperture                 : Floating Aperture
+Maximum Radius           :              2.7
+
+Surface IMA STANDARD 
+ 
+EDGE THICKNESS DATA:
+
+Surf           	Edge
+ STO 	      0.282361
+   2 	      0.048829
+   3 	      0.621754
+   4 	      0.157234
+   5 	      0.300319
+   6 	      0.814834
+   7 	      0.557381
+   8 	      0.994414
+   9 	      0.300000
+  10 	      0.450000
+ IMA 	      0.000000
+ 
+SOLVE AND VARIABLE DATA:
+
+ Glass of   7           : Pickup from 5
+ Semi Diameter   9      : Fixed
+ Semi Diameter  10      : Fixed
+ 
+INDEX OF REFRACTION DATA:
+
+System Temperature:   20.0000 Celsius
+System Pressure   :    1.0000 Atmospheres
+Absolute air index:    1.000272 at wavelength 0.587562 µm
+Index data is relative to air at the system temperature and pressure.
+Wavelengths are measured in air at the system temperature and pressure.
+ 
+Surf                 	 Glass 	   Temp      	Pres  	   0.48613270	   0.58756180	   0.65627250
+   0 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   1              	   <MODEL>	  20.00 	   1.00 	  1.6991335361	  1.6900825655	  1.6861673230	
+   2 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   3              	   <MODEL>	  20.00 	   1.00 	  1.6512490655	  1.6320051994	  1.6242516913	
+   4 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   5              	   <MODEL>	  20.00 	   1.00 	  1.5396911554	  1.5331818564	  1.5303408675	
+   6 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   7              	   <MODEL>	  20.00 	   1.00 	  1.5396911554	  1.5331818564	  1.5303408675	
+   8 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+   9              	   <MODEL>	  20.00 	   1.00 	  1.5223746605	  1.5168016078	  1.5143280185	
+  10 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+  11 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
+ 
+THERMAL COEFFICIENT OF EXPANSION DATA:
+
+Surf                  	 Glass     	   TCE * 10E-6
+  0  	                         	  0.0000000000
+  1                 	 <MODEL> 	  0.0000000000
+  2  	                         	  0.0000000000
+  3                 	 <MODEL> 	  0.0000000000
+  4  	                         	  0.0000000000
+  5                 	 <MODEL> 	  0.0000000000
+  6  	                         	  0.0000000000
+  7                 	 <MODEL> 	  0.0000000000
+  8  	                         	  0.0000000000
+  9                 	 <MODEL> 	  0.0000000000
+ 10  	                         	  0.0000000000
+ 11  	                         	  0.0000000000
+ 
+GLOBAL VERTEX COORDINATES, ORIENTATIONS, AND ROTATION/OFFSET MATRICES:
+
+Reference Surface: 1
+
+Surf           	R11           	R12            	R13                 	X          	   Tilt X
+               	R21            	R22            	R23                 	Y          	   Tilt Y
+               	R31            	R32            	R33                 	Z          	   Tilt Z
+
+  1 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 0.000000000E+000 	 0.000000000E+000
+
+  2 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 5.930000000E-001 	 0.000000000E+000
+
+  3 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 7.570000000E-001 	 0.000000000E+000
+
+  4 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.157000000E+000 	 0.000000000E+000
+
+  5 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 1.788000000E+000 	 0.000000000E+000
+
+  6 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 2.288000000E+000 	 0.000000000E+000
+
+  7 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 3.036000000E+000 	 0.000000000E+000
+
+  8 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 3.736000000E+000 	 0.000000000E+000
+
+  9 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 4.150000000E+000 	 0.000000000E+000
+
+ 10 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 4.450000000E+000 	 0.000000000E+000
+
+ 11 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 4.900000000E+000 	 0.000000000E+000
+
+ 
+GLOBAL SURFACE CENTER OF CURVATURE POINTS:
+
+Reference Surface: 1
+
+Surf             	X              	Y              	Z
+  1 	  0.0000000000 	  0.0000000000 	  1.4775000000 	
+  2 	  0.0000000000 	  0.0000000000 	  5.6612000000 	
+  3 	  0.0000000000 	  0.0000000000 	 -6.0777000000 	
+  4 	  0.0000000000 	  0.0000000000 	  9.0302000000 	
+  5 	  0.0000000000 	  0.0000000000 	 -0.3346000000 	
+  6 	  0.0000000000 	  0.0000000000 	  0.7468000000 	
+  7 	  0.0000000000 	  0.0000000000 	 -1.6992000000 	
+  8 	  0.0000000000 	  0.0000000000 	 15.0635000000 	
+  9              	-              	-              	- 	
+ 10              	-              	-              	- 	
+ 11              	-              	-              	- 	
+ 
+ELEMENT VOLUME DATA:
+
+For centered elements with plane or spherical circular faces, exact
+volumes are computed by assuming edges are squared up to the larger
+of the front and back radial aperture.
+
+For all other elements, approximate volumes are numerically integrated
+to 0.1% accuracy. Zero volume means the volume cannot be accurately computed.
+
+Single elements that are duplicated in the Lens Data Editor
+for ray tracing purposes may be listed more than once yielding
+incorrect total mass estimates.
+
+                            	 Volume cc   	Density g/cc       	Mass g
+Element surf   1 to 2   	      0.001337 	      0.000000 	      0.000000
+Element surf   3 to 4   	      0.001285 	      0.000000 	      0.000000
+Element surf   5 to 6   	      0.002129 	      0.000000 	      0.000000
+Element surf   7 to 8   	      0.012133 	      0.000000 	      0.000000
+Element surf   9 to 10  	      0.006871 	      0.000000 	      0.000000
+Total Mass:                                           	      0.000000
+ 
+F/# DATA:
+
+F/# calculations consider vignetting factors and ignore surface apertures.
+
+     Wavelength:	     	    0.486133    	     	    0.587562    	     	    0.656273    	
+#	            Field       	Tan       	Sag      	Tan       	Sag      	Tan       	Sag
+1	          0.00 (deg):	   2.9370 	   2.9370	   2.9397 	   2.9397	   2.9438 	   2.9438
+2	         22.00 (deg):	   3.3277 	   3.2063	   3.3303 	   3.2050	   3.3339 	   3.2076
+3	         32.20 (deg):	   4.1817 	   3.4953	   4.1831 	   3.5008	   4.1844 	   3.5065
+ 
+CARDINAL POINTS:
+
+Object space positions are measured with respect to surface 1.
+Image space positions are measured with respect to the image surface.
+The index in both the object space and image space is considered.
+
+                                 	Object Space           	Image Space
+W = 	0.486133	
+Focal Length          : 	          -4.521947 	           4.521947
+Focal Planes          : 	          -5.852739 	          -0.018382
+Principal Planes      : 	          -1.330792 	          -4.540329
+Anti-Principal Planes : 	         -10.374686 	           4.503565
+Nodal Planes          : 	          -1.330792 	          -4.540329
+Anti-Nodal Planes     : 	         -10.374686 	           4.503565
+
+W = 	0.587562	(Primary)
+Focal Length          : 	          -4.554190 	           4.554190
+Focal Planes          : 	          -5.873955 	           0.006784
+Principal Planes      : 	          -1.319766 	          -4.547406
+Anti-Principal Planes : 	         -10.428145 	           4.560974
+Nodal Planes          : 	          -1.319766 	          -4.547406
+Anti-Nodal Planes     : 	         -10.428145 	           4.560974
+
+W = 	0.656273	
+Focal Length          : 	          -4.570843 	           4.570843
+Focal Planes          : 	          -5.886918 	           0.019634
+Principal Planes      : 	          -1.316075 	          -4.551209
+Anti-Principal Planes : 	         -10.457760 	           4.590477
+Nodal Planes          : 	          -1.316075 	          -4.551209
+Anti-Nodal Planes     : 	         -10.457760 	           4.590477
+ 
+PHYSICAL OPTICS PROPAGATION SETTINGS SUMMARY:
+
+ OBJ STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ STO EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   2 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   3 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   4 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   5 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   6 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   7 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   8 EVENASPH                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   9 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  10 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ IMA STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ 
+FILES USED:
+
+Zemax File
+  C:\Users\nh\repos\LensLibrary\zemax_files\7558005a.zmx
+Session File
+  C:\Users\nh\repos\LensLibrary\zemax_files\7558005a.ZDA
+Glass Catalogs
+  C:\Users\nh\Documents\Zemax\GLASSCAT\SCHOTT.AGF
+Coating Data
+  C:\Users\nh\Documents\Zemax\COATINGS\COATING.DAT
+ABg Data
+  C:\Users\nh\Documents\Zemax\ABG_DATA\ABG_DATA.DAT
