@@ -1,0 +1,41 @@
+                                                        image_space
+filename		lens_type		focal_length(mm)		f-number		FFOV(deg)		N_surfaces		N_elements		ref
+0528155			camera			239.89					8				53.2			8				6				Goerz1894
+0895045a		camera			93.2					12.5			60.0			6				4				Rudolph1908
+0895045b		camera			79.4					12.5			60.0			4				4				Rudolph1908
+1792917			camera			100.2					4.5				65.0			10				6				Merte1931
+1843519			camera			100.0					2.2				16.0			6				4				Richter1932
+1975678			camera			92.6					1.5				42.0			10				7				Bertele1934
+1998704a		camera			100.0					2.0				13.7			9				6				Bertele1935
+1998704b		camera			100.4					2.8				18.0			8				5				Bertele1935
+2031792a		camera			66.5					12.5			90.0			8				4				Richter1936
+2031792b		camera			78.9					12.5			90.0			8				4				Richter1936
+2076190			camera			101.4					1.6				16.0			8				5				Wood1937
+2117252a		camera			100.6					6.0				50.0			10				6				Lee1938
+2453260			camera			100.0					2.7				28.0			6				3				Pestrekov1948
+2645156			camera			100.0					3.5				53.2			8				5				Tronnier1953
+
+6744570a		cell_phone_lens	7.3						4.0				60.0			8				4				Isono2004
+6744570b		cell_phone_lens	7.2						4.0				60.0			8				4				Isono2004
+6744570c		cell_phone_lens	7.2						4.0				60.0			8				4				Isono2004
+7558005a		cell_phone_lens	4.55					3.0				64.4			8				4				Yasuhiko2009
+7558005b		cell_phone_lens	4.55					3.0				64.4			8				4				Yasuhiko2009
+7558005c		cell_phone_lens	4.58					3.0				64.4			8				4				Yasuhiko2009
+
+Miyamoto1964	wide_view		8.0						0.12			180.0			16				10				Miyamoto1964
+
+JWST			telescope		-116000					16.6			0.113			3				3				???
+WIYN			telescope		22000					3.1				0.400			2				2				???
+
+-------------------------------------------------------------------------------------------------------------------------------------
+														object_space
+filename		lens_type		focal_length(mm)		NA				FFOV(mm)		N_surfaces		N_elements		ref
+2050024			microscope_obj	-2.60					0.40			0.300			15				8				Sonnefeld1936
+4037934			microscope_obj	1.00					0.67			0.112			12				7				Matsubara1977
+
+-------------------------------------------------------------------------------------------------------------------------------------
+                                                        image_space
+filename		lens_type		focal_length(mm)		f-number		wavelength_range(nm)	spectrum_dispersion(mm)		N_surfaces		N_elements		ref
+czt_spect		spectrometer	???						???				200						???							3				3				Czerny1930
+czt_spectCC		spectrometer	???						???				200						???							5				4				Lee2010d
+
