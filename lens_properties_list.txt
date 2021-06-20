@@ -50,6 +50,8 @@ filename		lens_type				focal_length(mm)		NA				FFOV(mm)		N_surfaces		N_elements	
 7643216c		stereo_microscope_obj	80.0					0.33			10.0			14				8				Winterot2010
 7643216d		stereo_microscope_obj	67.2					0.38			10.0			14				8				Winterot2010
 
+Liang2006a		endoscope_objective     0.78					0.4				0.24			6				3				Liang2006
+
 -------------------------------------------------------------------------------------------------------------------------------------
 																image_space
 filename		lens_type				focal_length(mm)		f-number		wavelength_range(nm)	spectrum_dispersion(mm)		N_surfaces		N_elements		ref
