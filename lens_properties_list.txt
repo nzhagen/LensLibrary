@@ -32,6 +32,7 @@ WIYN			telescope				22000					3.1				0.400			2				2				???
 filename		lens_type				focal_length(mm)		NA				FFOV(mm)		N_surfaces		N_elements		ref
 2050024			microscope_obj			-2.60					0.40			0.300			15				8				Sonnefeld1936
 4037934			microscope_obj			1.00					0.67			0.112			12				7				Matsubara1977
+5000548         microscope_obj          16.3                    0.25            0.5             8               4               Mercado1991
 
 1791276			microscope_obj			99.8					0.15			10.0			10				5				Konig1931
 7643216a		stereo_microscope_obj	50.7					0.49			8.0				14				8				Winterot2010
