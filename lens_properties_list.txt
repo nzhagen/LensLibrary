@@ -25,6 +25,9 @@ Smith1998b		camera[Tessar]			52.0					3.5				45.2			8				4				Smith1998
 7558005c		cell_phone_lens			4.58					3.0				64.4			8				4				Yasuhiko2009
 
 Miyamoto1964	wide_view				8.0						0.12			180.0			16				10				Miyamoto1964
+Yan2017a        wide_view				9.2						2.8				180.0			19				11				Yan2017
+Yan2017b        wide_view				10.8					3.0				180.0			19				11				Yan2017
+Yan2017c        wide_view				16.1					3.5				180.0			19				11				Yan2017
 
 JWST			telescope				-116000					16.6			0.113			3				3				???
 WIYN			telescope				22000					3.1				0.400			2				2				???
