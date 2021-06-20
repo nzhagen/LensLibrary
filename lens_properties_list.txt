@@ -29,18 +29,19 @@ Yan2017a        wide_view				9.2						2.8				180.0			19				11				Yan2017
 Yan2017b        wide_view				10.8					3.0				180.0			19				11				Yan2017
 Yan2017c        wide_view				16.1					3.5				180.0			19				11				Yan2017
 
-JWST			telescope				-116000					16.6			0.113			3				3				???
-WIYN			telescope				22000					3.1				0.400			2				2				???
+JWST			telescope				-116,000				16.6			0.113			3				3				???
+WIYN			telescope				22,000					3.1				0.400			2				2				???
+Keck_f13		telescope				150,000					13.66			0.04			2				2				Keck2021
 
 -------------------------------------------------------------------------------------------------------------------------------------
 																object_space
 filename		lens_type				focal_length(mm)		NA				FFOV(mm)		N_surfaces		N_elements		ref
-2050024			microscope_obj			-2.60					0.40			0.300			15				8				Sonnefeld1936
-4037934			microscope_obj			1.00					0.67			0.112			12				7				Matsubara1977
-5000548a        microscope_obj          16.3                    0.25            0.8             8               4               Mercado1991
-5000548b        microscope_obj          17.8                    0.25            0.8             8               4               Mercado1991
+2050024			microscope_objective	-2.60					0.40			0.300			15				8				Sonnefeld1936
+4037934			microscope_objective	1.00					0.67			0.112			12				7				Matsubara1977
+5000548a        microscope_objective    16.3                    0.25            0.8             8               4               Mercado1991
+5000548b        microscope_objective    17.8                    0.25            0.8             8               4               Mercado1991
+1791276			microscope_objective	99.8					0.15			20.0			10				5				Konig1931
 
-1791276			microscope_obj			99.8					0.15			20.0			10				5				Konig1931
 5852515a		stereo_microscope_obj	300.0					0.08			8.0				7				4				Kurata1998
 5852515b		stereo_microscope_obj	300.0					0.08			8.0				11				6				Kurata1998
 5852515c		stereo_microscope_obj	200.0					0.12			8.0				11				6				Kurata1998
