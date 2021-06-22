@@ -66,6 +66,7 @@ Liang2006e		endoscope_objective     0.38					0.9				0.22			8				4				Liang2006
 filename		lens_type				focal_length(mm)		f-number		FFOV(deg)		N_surfaces		N_elements		ref
 Wang2010a		endoscope_objective     0.96					1.90			170.0			11				6				Wang2010
 Wang2010b		endoscope_objective     0.96					1.35			170.0			10				5				Wang2010
+Wang2010c		endoscope_objective     1.28					2.79			150.0			10				5				Wang2010
 
 -------------------------------------------------------------------------------------------------------------------------------------
 																image_space
