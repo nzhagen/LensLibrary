@@ -17,13 +17,13 @@ filename		lens_type				focal_length(mm)		f-number		FFOV(deg)		N_surfaces		N_elem
 Smith1998a		camera[CookeTriplet]	52.0					3.5				45.2			7				3				Smith1998
 Smith1998b		camera[Tessar]			52.0					3.5				45.2			8				4				Smith1998
 
-6744570a		cell_phone_lens			7.3						4.0				60.0			8				4				Isono2004
-6744570b		cell_phone_lens			7.2						4.0				60.0			8				4				Isono2004
-6744570c		cell_phone_lens			7.2						4.0				60.0			8				4				Isono2004
-7558005a		cell_phone_lens			4.55					3.0				64.4			8				4				Yasuhiko2009
-7558005b		cell_phone_lens			4.55					3.0				64.4			8				4				Yasuhiko2009
-7558005c		cell_phone_lens			4.58					3.0				64.4			8				4				Yasuhiko2009
-10281683		cell_phone_lens			4.69					1.7				40.0			12				6				Yao2019
+6744570a		cell_phone				7.3						4.0				60.0			8				4				Isono2004
+6744570b		cell_phone				7.2						4.0				60.0			8				4				Isono2004
+6744570c		cell_phone				7.2						4.0				60.0			8				4				Isono2004
+7558005a		cell_phone				4.55					3.0				64.4			8				4				Yasuhiko2009
+7558005b		cell_phone				4.55					3.0				64.4			8				4				Yasuhiko2009
+7558005c		cell_phone				4.58					3.0				64.4			8				4				Yasuhiko2009
+10281683		cell_phone				4.69					1.7				40.0			12				6				Yao2019
 
 Miyamoto1964	wide_view				8.0						0.12			180.0			16				10				Miyamoto1964
 Yan2016a		wide_view				16.0					2.84			180.0			15				8				Yan2016
