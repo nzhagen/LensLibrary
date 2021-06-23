@@ -23,6 +23,7 @@ Smith1998b		camera[Tessar]			52.0					3.5				45.2			8				4				Smith1998
 7558005a		cell_phone_lens			4.55					3.0				64.4			8				4				Yasuhiko2009
 7558005b		cell_phone_lens			4.55					3.0				64.4			8				4				Yasuhiko2009
 7558005c		cell_phone_lens			4.58					3.0				64.4			8				4				Yasuhiko2009
+10281683		cell_phone_lens			4.69					1.7				40.0			12				6				Yao2019
 
 Miyamoto1964	wide_view				8.0						0.12			180.0			16				10				Miyamoto1964
 Yan2016a		wide_view				16.0					2.84			180.0			15				8				Yan2016
