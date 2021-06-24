@@ -14,8 +14,9 @@ filename		lens_type				focal_length(mm)		f-number		FFOV(deg)		N_surfaces		N_elem
 2117252a		camera					100.6					6.0				50.0			10				6				Lee1938
 2453260			camera					100.0					2.7				28.0			6				3				Pestrekov1948
 2645156			camera					100.0					3.5				53.2			8				5				Tronnier1953
-Smith1998a		camera[CookeTriplet]	52.0					3.5				45.2			7				3				Smith1998
-Smith1998b		camera[Tessar]			52.0					3.5				45.2			8				4				Smith1998
+Smith1992a      camera_hypergon         103.2					20.0			134.0			5				3				Smith1992
+Smith1998a		camera_cooke			52.0					3.5				45.2			7				3				Smith1998
+Smith1998b		camera_tessar			52.0					3.5				45.2			8				4				Smith1998
 
 6744570a		cell_phone				7.3						4.0				60.0			8				4				Isono2004
 6744570b		cell_phone				7.2						4.0				60.0			8				4				Isono2004
