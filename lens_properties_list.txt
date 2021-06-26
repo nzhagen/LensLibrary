@@ -64,6 +64,8 @@ Liang2006c		endoscope_objective     1.09					0.6				0.32			8				4				Liang2006
 Liang2006d		endoscope_objective     0.37					0.6				0.22			8				4				Liang2006
 Liang2006e		endoscope_objective     0.38					0.9				0.22			8				4				Liang2006
 
+Dyson1959		projection_lens			350.5					0.47			4.0				3				2				Dyson1959
+
 																image_space
 filename		lens_type				focal_length(mm)		f-number		FFOV(deg)		N_surfaces		N_elements		ref
 7821720a		endoscope_objective     0.96					1.90			170.0			11				6				Wang2010
