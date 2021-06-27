@@ -1,8 +1,8 @@
 																	image_space
 filename			lens_type				focal_length(mm)		f-number		FFOV(deg)		N_surfaces		N_elements		ref
-0528155				camera					239.89					8				53.2			8				6				Goerz1894
-0895045a			camera					93.2					12.5			60.0			6				4				Rudolph1908
-0895045b			camera					79.4					12.5			60.0			4				4				Rudolph1908
+528155				camera					239.89					8				53.2			8				6				Goerz1894
+895045a				camera					93.2					12.5			60.0			6				4				Rudolph1908
+895045b				camera					79.4					12.5			60.0			4				4				Rudolph1908
 1792917				camera					100.2					4.5				65.0			10				6				Merte1931
 1843519				camera					100.0					2.2				16.0			6				4				Richter1932
 1975678				camera					92.6					1.5				42.0			10				7				Bertele1934
@@ -35,9 +35,9 @@ Yan2017a        	wide_view_zoom			9.2						2.8				180.0			19				11				Yan2017
 Yan2017b        	wide_view_zoom			10.8					3.0				180.0			19				11				Yan2017
 Yan2017c        	wide_view_zoom			16.1					3.5				180.0			19				11				Yan2017
 
-09201224a			projection_lens			19.7					2.55			59.2			12				6				Kubota2015
-09201224b			projection_lens			22.7					2.63			52.8			12				6				Kubota2015
-09201224c			projection_lens			25.6					2.97			46.4			12				6				Kubota2015
+9201224a			projection_lens_zoom	19.7					2.55			59.2			12				6				Kubota2015
+9201224b			projection_lens_zoom	22.7					2.63			52.8			12				6				Kubota2015
+9201224c			projection_lens_zoom	25.6					2.97			46.4			12				6				Kubota2015
 
 JWST				telescope				-116,000				16.6			0.113			3				3				???
 WIYN				telescope				22,000					3.1				0.400			2				2				???
