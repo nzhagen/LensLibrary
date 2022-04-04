@@ -83,3 +83,7 @@ czt_spect			spectrometer_CZT		???						???				200						???							3				3				Czern
 czt_spectCC			spectrometer_CZT		???						???				200						???							5				4				Lee2010d
 Montero-Orille2011  spectrometer_Dyson		181						1.5				1300					10.0						3				2				Montero-Orille2011
 
+-------------------------------------------------------------------------------------------------------------------------------------
+																	image_space
+filename			system_type				total_track(mm)		f-number		N_surfaces		N_elements
+schlieren_system    Schlieren imaging       3048                5               8               2
