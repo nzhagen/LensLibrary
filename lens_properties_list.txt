@@ -51,6 +51,7 @@ filename            lens_type                focal_length(mm)        NA         
 5000548a            microscope_objective     16.3                    0.25              0.8             8                 4                 Mercado1991
 5000548b            microscope_objective     17.8                    0.25              0.8             8                 4                 Mercado1991
 1791276             microscope_objective     99.8                    0.15              20.0            10                5                 Konig1931
+Yu2024              microscope_objective     20.0                    0.5               6.6             10                6                 Yu2024
 
 5852515a            stereo_microscope_obj    300.0                   0.08              8.0             7                 4                 Kurata1998
 5852515b            stereo_microscope_obj    300.0                   0.08              8.0             11                6                 Kurata1998
@@ -59,7 +60,7 @@ filename            lens_type                focal_length(mm)        NA         
 7643216b            stereo_microscope_obj    100.5                   0.27              12.0            10                6                 Winterot2010
 7643216c            stereo_microscope_obj    80.0                    0.33              10.0            14                8                 Winterot2010
 7643216d            stereo_microscope_obj    67.2                    0.38              10.0            14                8                 Winterot2010
-                                                                                                                                           
+
 Liang2002a          endoscope_objective      -27.88                  0.78              0.5             16                8                 Liang2002
 Liang2002b          endoscope_objective      1.49                    0.4               0.25            6                 3                 Liang2002
 Liang2006a          endoscope_objective      0.78                    0.4               0.24            6                 3                 Liang2006
@@ -67,7 +68,7 @@ Liang2006b          endoscope_objective      0.38                    0.6        
 Liang2006c          endoscope_objective      1.09                    0.6               0.32            8                 4                 Liang2006
 Liang2006d          endoscope_objective      0.37                    0.6               0.22            8                 4                 Liang2006
 Liang2006e          endoscope_objective      0.38                    0.9               0.22            8                 4                 Liang2006
-                                                                                                                                           
+
 Dyson1959           projection_lens_Dyson    350.5                   0.47              4.0              3                2                 Dyson1959
 
                                                                     image_space
