@@ -53,7 +53,7 @@ filename            lens_type                focal_length(mm)        NA         
 5000548a            microscope_objective     16.3                    0.25              0.8             8                 4                 Mercado1991
 5000548b            microscope_objective     17.8                    0.25              0.8             8                 4                 Mercado1991
 6016226             microscope_objective      1.0                    0.62              1.673           28                18                Arisawa2000
-Kidger2004          microscope_objective
+Kidger2004          microscope_objective      4.5                    0.55              0.315           16                9                 Kidger2004
 Yu2024              microscope_objective     20.0                    0.5               6.6             10                6                 Yu2024
 
 5852515a            stereo_microscope_obj    300.0                   0.08              8.0             7                 4                 Kurata1998
