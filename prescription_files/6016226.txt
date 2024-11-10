@@ -2,14 +2,14 @@ System/Prescription Data
 
 File : E:\SEND_TO_LAB\files for Sumitec\6016226.zmx
 Title: 
-Date : 2024-11-09
+Date : 2024-11-10
 
 
 GENERAL LENS DATA:
 
 Surfaces                : 	              30
 Stop                    : 	               8
-System Aperture         : 	Entrance Pupil Diameter = 	1.55
+System Aperture         : 	Entrance Pupil Diameter = 	1.35
 Fast Semi-Diameters     :	On 
 Field Unpolarized       :	On
 Convert thin film phase to ray equivalent :	On 
@@ -26,26 +26,26 @@ OPD Modulo 2 Pi         :	Off
 Temperature (C)         : 	   2.00000E+001
 Pressure (ATM)          : 	   1.00000E+000
 Adjust Index Data To Environment  :	Off
-Effective Focal Length  :	       0.9809991	(in air at system temperature and pressure)
-Effective Focal Length  :	       0.9809991	(in image space)
-Back Focal Length       :	        11.38921
-Total Track             :	        93.97556
-Image Space F/#         :	       0.6329026
-Paraxial Working F/#    :	       0.6329026
-Working F/#             :	       0.7049385
-Image Space NA          :	        0.619904
-Object Space NA         :	       7.75e-011
-Stop Radius             :	        9.190928
-Paraxial Image Height   :	      0.05141198
+Effective Focal Length  :	        1.004009	(in air at system temperature and pressure)
+Effective Focal Length  :	        1.004009	(in image space)
+Back Focal Length       :	         14.5641
+Total Track             :	        97.81364
+Image Space F/#         :	       0.7437107
+Paraxial Working F/#    :	       0.7437107
+Working F/#             :	        0.750327
+Image Space NA          :	       0.5579351
+Object Space NA         :	       6.75e-011
+Stop Radius             :	        8.556339
+Paraxial Image Height   :	       0.0526179
 Paraxial Magnification  :	               0
-Entrance Pupil Diameter :	            1.55
-Entrance Pupil Position :	        2.845414
-Exit Pupil Diameter     :	        18.12039
-Exit Pupil Position     :	        12.17209
+Entrance Pupil Diameter :	            1.35
+Entrance Pupil Position :	        2.827685
+Exit Pupil Diameter     :	         19.9144
+Exit Pupil Position     :	          14.851
 Field Type              : 	Angle in degrees
 Maximum Radial Field    :	               3
 Primary Wavelength [µm] :	       0.5875618
-Angular Magnification   :	     -0.08553915
+Angular Magnification   :	     -0.06779027
 Lens Units              :	   Millimeters
 Source Units            :	   Watts 
 Analysis Units          :	   Watts/cm^2 
@@ -77,36 +77,36 @@ SURFACE DATA SUMMARY:
 
 Surf       	Type        	Radius        	Thickness           	Glass        	Diameter        	Conic        	Comment
  OBJ	 STANDARD	       Infinity	       Infinity	                     	             0	              0	 
-   1	 STANDARD	         -3.996	           2.37	 1.846660, 23.800000	      1.859742	              0	 
-   2	 STANDARD	         -2.359	            1.1	 1.729160, 54.700000	      2.225659	              0	 
-   3	 STANDARD	           4.68	            3.7	                     	      2.377375	              0	 
-   4	 STANDARD	             -7	              3	 1.846660, 23.800000	       4.32406	              0	 
-   5	 STANDARD	         -3.654	              1	 1.729160, 54.700000	       5.60045	              0	 
-   6	 STANDARD	       Infinity	          10.38	                     	      6.821395	              0	 
-   7	 STANDARD	        -105.29	            4.4	 1.456000, 90.300000	       16.8185	              0	 
- STO	 STANDARD	        -11.998	            0.5	                     	       17.4904	              0	 
-   9	 STANDARD	        -190.02	              1	 1.772500, 49.600000	      18.17859	              0	 
-  10	 STANDARD	         17.926	            5.2	 1.456000, 90.300000	      18.70732	              0	 
-  11	 STANDARD	         -33.12	            0.4	                     	      19.24424	              0	 
-  12	 STANDARD	         87.434	              6	 1.497000, 81.600000	      20.24401	              0	 
-  13	 STANDARD	        -15.994	            1.1	 1.804000, 46.600000	      20.58422	              0	 
-  14	 STANDARD	       Infinity	            0.3	                     	      22.68192	              0	 
-  15	 STANDARD	         21.737	            6.7	 1.456000, 90.300000	      26.69272	              0	 
-  16	 STANDARD	         -73.71	            1.5	 1.743300, 49.200000	      26.65353	              0	 
-  17	 STANDARD	           18.6	            9.3	 1.465000, 90.300000	       26.8561	              0	 
-  18	 STANDARD	        -30.654	           0.22	                     	      27.06577	              0	 
-  19	 STANDARD	         41.109	            7.9	 1.456000, 90.300000	      28.77299	              0	 
-  20	 STANDARD	        -24.465	            1.5	 1.493500, 53.300000	      28.74528	              0	 
-  21	 STANDARD	            421	           0.54	                     	      28.70064	              0	 
-  22	 STANDARD	         128.56	            4.3	 1.497000, 81.600000	      28.72605	              0	 
-  23	 STANDARD	        -43.495	           0.22	                     	       28.6632	              0	 
-  24	 STANDARD	          39.71	            3.1	 1.456000, 90.300000	      26.39134	              0	 
-  25	 STANDARD	         171.29	           0.22	                     	      25.67947	              0	 
-  26	 STANDARD	         23.742	            3.1	 1.456000, 90.300000	      23.61992	              0	 
-  27	 STANDARD	         44.992	           0.24	                     	      22.46579	              0	 
-  28	 STANDARD	         16.498	              4	 1.755000, 52.300000	      20.19981	              0	 
-  29	 STANDARD	         35.994	       10.68556	                     	      18.11549	              0	 
- IMA	 STANDARD	       Infinity	               	                     	       1.67302	              0	 
+   1	 STANDARD	         -3.996	           2.37	 1.846660, 23.800000	       1.65547	              0	 
+   2	 STANDARD	         -2.359	            1.1	 1.729160, 54.700000	      1.971328	              0	 
+   3	 STANDARD	           4.68	            3.7	                     	      2.089603	              0	 
+   4	 STANDARD	             -7	              3	 1.846660, 23.800000	      3.786663	              0	 
+   5	 STANDARD	         -3.654	              1	 1.729160, 54.700000	      5.001007	              0	 
+   6	 STANDARD	         50.143	          10.38	                     	       5.93738	              0	 
+   7	 STANDARD	        -105.29	            4.4	 1.456000, 90.300000	      15.51319	              0	 
+ STO	 STANDARD	        -11.998	            0.5	                     	      16.47101	              0	 
+   9	 STANDARD	        -190.02	              1	 1.772500, 49.600000	      17.22836	              0	 
+  10	 STANDARD	         17.926	            5.2	 1.456000, 90.300000	      17.79429	              0	 
+  11	 STANDARD	         -33.12	            0.4	                     	      18.52076	              0	 
+  12	 STANDARD	         87.434	              6	 1.497000, 81.600000	      19.50299	              0	 
+  13	 STANDARD	        -15.994	            1.1	 1.804000, 46.600000	      19.92473	              0	 
+  14	 STANDARD	       Infinity	            0.3	                     	      21.90083	              0	 
+  15	 STANDARD	         21.737	            6.7	 1.456000, 90.300000	      25.54772	              0	 
+  16	 STANDARD	         -73.71	            1.5	 1.743300, 49.200000	      25.53775	              0	 
+  17	 STANDARD	           18.6	            9.3	 1.465000, 90.300000	      25.94488	              0	 
+  18	 STANDARD	        -30.654	           0.22	                     	      26.45872	              0	 
+  19	 STANDARD	         41.109	            7.9	 1.456000, 90.300000	      28.17705	              0	 
+  20	 STANDARD	        -24.465	            1.5	 1.693500, 53.300000	      28.14943	              0	 
+  21	 STANDARD	            421	           0.54	                     	      29.18468	              0	 
+  22	 STANDARD	         128.56	            4.3	 1.497000, 81.600000	      29.56508	              0	 
+  23	 STANDARD	        -43.495	           0.22	                     	      29.68418	              0	 
+  24	 STANDARD	          39.71	            3.1	 1.456000, 90.300000	      28.90653	              0	 
+  25	 STANDARD	         171.29	           0.22	                     	      28.58839	              0	 
+  26	 STANDARD	         23.742	            3.1	 1.456000, 90.300000	      27.04336	              0	 
+  27	 STANDARD	         44.992	           0.24	                     	      26.45209	              0	 
+  28	 STANDARD	         16.498	              4	 1.755000, 52.300000	      23.98835	              0	 
+  29	 STANDARD	         35.994	       14.52364	                     	      23.08203	              0	 
+ IMA	 STANDARD	       Infinity	               	                     	     0.1599524	              0	 
  
 
 
@@ -177,35 +177,35 @@ Surface IMA STANDARD
 EDGE THICKNESS DATA:
 
 Surf           	Edge
-   1 	      2.200718
-   2 	      1.532454
-   3 	      3.204274
-   4 	      2.035687
-   5 	      2.306564
-   6 	     10.043650
-   7 	      0.952577
- STO 	      4.066263
-   9 	      3.851339
-  10 	      1.137641
-  11 	      2.416406
-  12 	      1.660692
-  13 	      4.851433
-  14 	      4.879734
-  15 	      0.905517
-  16 	      8.444339
-  17 	      0.421478
-  18 	      5.968471
-  19 	      0.633530
-  20 	      6.411577
-  21 	      1.100209
-  22 	      1.066193
-  23 	      4.905536
-  24 	      1.325322
-  25 	      2.883798
-  26 	      1.379083
-  27 	      2.268064
-  28 	      1.705460
-  29 	      9.527251
+   1 	      2.240878
+   2 	      1.433906
+   3 	      3.320972
+   4 	      2.271345
+   5 	      2.077525
+   6 	     10.005944
+   7 	      1.413263
+ STO 	      3.577482
+   9 	      3.559146
+  10 	      1.515261
+  11 	      2.266439
+  12 	      1.972873
+  13 	      4.581634
+  14 	      4.449342
+  15 	      1.436249
+  16 	      7.884901
+  17 	      1.027843
+  18 	      5.711196
+  19 	      0.956432
+  20 	      6.207006
+  21 	      1.139747
+  22 	      0.836601
+  23 	      5.554370
+  24 	      0.973781
+  25 	      3.849237
+  26 	      0.861203
+  27 	      3.422084
+  28 	      0.730415
+  29 	     12.623235
  IMA 	      0.000000
  
 SOLVE AND VARIABLE DATA:
@@ -241,7 +241,7 @@ Surf                 	 Glass 	   Temp      	Pres  	   0.48613270	   0.58756180	 
   17              	   <MODEL>	  20.00 	   1.00 	  1.4684996291	  1.4650010523	  1.4633521236	
   18 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
   19              	   <MODEL>	  20.00 	   1.00 	  1.4594318944	  1.4560010319	  1.4543840180	
-  20              	   <MODEL>	  20.00 	   1.00 	  1.4999618905	  1.4935018314	  1.4907067010	
+  20              	   <MODEL>	  20.00 	   1.00 	  1.7025806910	  1.6935025736	  1.6895746650	
   21 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
   22              	   <MODEL>	  20.00 	   1.00 	  1.5011654784	  1.4970012352	  1.4950771737	
   23 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	
@@ -414,7 +414,7 @@ Surf           	R11           	R12            	R13                 	X          	
 
  30 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
     	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
-    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 7.242556078E+001 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 7.626364299E+001 	 0.000000000E+000
 
  
 GLOBAL SURFACE CENTER OF CURVATURE POINTS:
@@ -427,7 +427,7 @@ Surf             	X              	Y              	Z
   3 	  0.0000000000 	  0.0000000000 	-13.4000000000 	
   4 	  0.0000000000 	  0.0000000000 	-21.3800000000 	
   5 	  0.0000000000 	  0.0000000000 	-15.0340000000 	
-  6              	-              	-              	- 	
+  6 	  0.0000000000 	  0.0000000000 	 39.7630000000 	
   7 	  0.0000000000 	  0.0000000000 	-105.2900000000 	
   8 	  0.0000000000 	  0.0000000000 	 -7.5980000000 	
   9 	  0.0000000000 	  0.0000000000 	-185.1200000000 	
@@ -467,24 +467,24 @@ for ray tracing purposes may be listed more than once yielding
 incorrect total mass estimates.
 
                             	 Volume cc   	Density g/cc       	Mass g
-Element surf   1 to 2   	      0.008966 	      0.000000 	      0.000000
-Element surf   2 to 3   	      0.005906 	      0.000000 	      0.000000
-Element surf   4 to 5   	      0.064874 	      0.000000 	      0.000000
-Element surf   5 to 6   	      0.067034 	      0.000000 	      0.000000
-Element surf   7 to 8   	      0.674406 	      0.000000 	      0.000000
-Element surf   9 to 10  	      0.658816 	      0.000000 	      0.000000
-Element surf  10 to 11  	      0.911716 	      0.000000 	      0.000000
-Element surf  12 to 13  	      1.299211 	      0.000000 	      0.000000
-Element surf  13 to 14  	      1.308439 	      0.000000 	      0.000000
-Element surf  15 to 16  	      2.178249 	      0.000000 	      0.000000
-Element surf  16 to 17  	      2.722325 	      0.000000 	      0.000000
-Element surf  17 to 18  	      2.886012 	      0.000000 	      0.000000
-Element surf  19 to 20  	      2.833832 	      0.000000 	      0.000000
-Element surf  20 to 21  	      2.514194 	      0.000000 	      0.000000
-Element surf  22 to 23  	      1.743249 	      0.000000 	      0.000000
-Element surf  24 to 25  	      1.223369 	      0.000000 	      0.000000
-Element surf  26 to 27  	      1.025853 	      0.000000 	      0.000000
-Element surf  28 to 29  	      0.971275 	      0.000000 	      0.000000
+Element surf   1 to 2   	      0.007080 	      0.000000 	      0.000000
+Element surf   2 to 3   	      0.004379 	      0.000000 	      0.000000
+Element surf   4 to 5   	      0.053364 	      0.000000 	      0.000000
+Element surf   5 to 6   	      0.046077 	      0.000000 	      0.000000
+Element surf   7 to 8   	      0.641112 	      0.000000 	      0.000000
+Element surf   9 to 10  	      0.561499 	      0.000000 	      0.000000
+Element surf  10 to 11  	      0.888199 	      0.000000 	      0.000000
+Element surf  12 to 13  	      1.261588 	      0.000000 	      0.000000
+Element surf  13 to 14  	      1.161080 	      0.000000 	      0.000000
+Element surf  15 to 16  	      2.123302 	      0.000000 	      0.000000
+Element surf  16 to 17  	      2.412598 	      0.000000 	      0.000000
+Element surf  17 to 18  	      2.874360 	      0.000000 	      0.000000
+Element surf  19 to 20  	      2.812899 	      0.000000 	      0.000000
+Element surf  20 to 21  	      2.635382 	      0.000000 	      0.000000
+Element surf  22 to 23  	      1.784681 	      0.000000 	      0.000000
+Element surf  24 to 25  	      1.351507 	      0.000000 	      0.000000
+Element surf  26 to 27  	      1.197765 	      0.000000 	      0.000000
+Element surf  28 to 29  	      1.169555 	      0.000000 	      0.000000
 Total Mass:                                           	      0.000000
  
 F/# DATA:
@@ -493,9 +493,9 @@ F/# calculations consider vignetting factors and ignore surface apertures.
 
      Wavelength:	     	    0.486133    	     	    0.587562    	     	    0.656273    	
 #	            Field       	Tan       	Sag      	Tan       	Sag      	Tan       	Sag
-1	        0.0000 (deg):	   0.7064 	   0.7064	   0.7049 	   0.7049	   0.7050 	   0.7050
-2	        2.1000 (deg):	   0.7057 	   0.7062	   0.7042 	   0.7047	   0.7042 	   0.7047
-3	        3.0000 (deg):	   0.7050 	   0.7059	   0.7034 	   0.7044	   0.7034 	   0.7044
+1	        0.0000 (deg):	   0.7475 	   0.7475	   0.7503 	   0.7503	   0.7521 	   0.7521
+2	        2.1000 (deg):	   0.7464 	   0.7471	   0.7491 	   0.7499	   0.7509 	   0.7517
+3	        3.0000 (deg):	   0.7453 	   0.7467	   0.7479 	   0.7495	   0.7497 	   0.7513
  
 CARDINAL POINTS:
 
@@ -505,28 +505,28 @@ The index in both the object space and image space is considered.
 
                                  	Object Space           	Image Space
 W = 	0.486133	
-Focal Length          : 	          -0.978369 	           0.978369
-Focal Planes          : 	           2.905796 	           0.699938
-Principal Planes      : 	           3.884165 	          -0.278431
-Anti-Principal Planes : 	           1.927427 	           1.678307
-Nodal Planes          : 	           3.884165 	          -0.278431
-Anti-Nodal Planes     : 	           1.927427 	           1.678307
+Focal Length          : 	          -1.000018 	           1.000018
+Focal Planes          : 	           2.871334 	           0.052060
+Principal Planes      : 	           3.871352 	          -0.947958
+Anti-Principal Planes : 	           1.871316 	           1.052078
+Nodal Planes          : 	           3.871352 	          -0.947958
+Anti-Nodal Planes     : 	           1.871316 	           1.052078
 
 W = 	0.587562	(Primary)
-Focal Length          : 	          -0.980999 	           0.980999
-Focal Planes          : 	           2.929327 	           0.703649
-Principal Planes      : 	           3.910327 	          -0.277350
-Anti-Principal Planes : 	           1.948328 	           1.684648
-Nodal Planes          : 	           3.910327 	          -0.277350
-Anti-Nodal Planes     : 	           1.948328 	           1.684648
+Focal Length          : 	          -1.004009 	           1.004009
+Focal Planes          : 	           2.895747 	           0.040456
+Principal Planes      : 	           3.899757 	          -0.963553
+Anti-Principal Planes : 	           1.891738 	           1.044466
+Nodal Planes          : 	           3.899757 	          -0.963553
+Anti-Nodal Planes     : 	           1.891738 	           1.044466
 
 W = 	0.656273	
-Focal Length          : 	          -0.983279 	           0.983279
-Focal Planes          : 	           2.940354 	           0.718703
-Principal Planes      : 	           3.923633 	          -0.264576
-Anti-Principal Planes : 	           1.957075 	           1.701982
-Nodal Planes          : 	           3.923633 	          -0.264576
-Anti-Nodal Planes     : 	           1.957075 	           1.701982
+Focal Length          : 	          -1.006907 	           1.006907
+Focal Planes          : 	           2.907068 	           0.052660
+Principal Planes      : 	           3.913975 	          -0.954247
+Anti-Principal Planes : 	           1.900161 	           1.059567
+Nodal Planes          : 	           3.913975 	          -0.954247
+Anti-Nodal Planes     : 	           1.900161 	           1.059567
  
 PHYSICAL OPTICS PROPAGATION SETTINGS SUMMARY:
 
