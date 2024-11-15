@@ -43,6 +43,9 @@ JWST                telescope                -116,000                16.6       
 WIYN                telescope                22,000                  3.1             0.400            2                 2                 ???
 Keck_f13            telescope                150,000                 13.66           0.04             2                 2                 Keck2021
 
+Shafer1980          x-ray telescope          125                     N/A             1.0              2                 2                 Shafer1980
+Shafer1980b         x-ray telescope          125                     N/A             1.0              2                 2                 Shafer1980
+
 -------------------------------------------------------------------------------------------------------------------------------------
                                                                      object_space
 filename            lens_type                focal_length(mm)        NA                FFOV(mm)        N_surfaces        N_elements        ref
