@@ -94,6 +94,7 @@ filename             lens_type               total_track(mm)        f-number    
 czt_spect            spectrometer_CZT        ???                    ???             200                     ???                            3                 3                 Czerny1930
 czt_spectCC          spectrometer_CZT        ???                    ???             200                     ???                            5                 4                 Lee2010d
 Montero-Orille2011   spectrometer_Dyson      181                    1.5             1300                    10.0                           3                 2                 Montero-Orille2011
+double_amici_spect   spectrometer_dbl_amici  296                    8.0             300                     9.4                            8
 
 -------------------------------------------------------------------------------------------------------------------------------------
                                                                     image_space
