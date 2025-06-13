@@ -96,6 +96,7 @@ czt_spectCC             spectrometer_CZT        ???                    ???      
 Montero-Orille2011      spectrometer_Dyson      181                    1.5             1300                    10.0                           3                 2                 Montero-Orille2011
 double_amici_spect      spectrometer_dbl_amici  296                    8.0             300                     9.4                            8
 spherical_grating_spect spectrometer_curv_grat  400                    5.0             200                     12.7                           1                 1
+toroidal_grating_spect  spectrometer_curv_grat  400                    5.0             200                     12.7                           1                 1
 
 -------------------------------------------------------------------------------------------------------------------------------------
                                                                     image_space
