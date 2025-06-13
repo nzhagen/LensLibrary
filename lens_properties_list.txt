@@ -1,102 +1,103 @@
                                                                     image_space
-filename            lens_type                focal_length(mm)        f-number        FFOV(deg)        N_surfaces        N_elements        ref
-528155              camera                   239.89                  8               53.2             8                 6                 Goerz1894
-895045a             camera                   93.2                    12.5            60.0             6                 4                 Rudolph1908
-895045b             camera                   79.4                    12.5            60.0             4                 4                 Rudolph1908
-1792917             camera                   100.2                   4.5             65.0             10                6                 Merte1931
-1843519             camera                   100.0                   2.2             16.0             6                 4                 Richter1932
-1975678             camera                   92.6                    1.5             42.0             10                7                 Bertele1934
-1998704a            camera                   100.0                   2.0             13.7             9                 6                 Bertele1935
-1998704b            camera                   100.4                   2.8             18.0             8                 5                 Bertele1935
-2031792a            camera                   66.5                    12.5            90.0             8                 4                 Richter1936
-2031792b            camera                   78.9                    12.5            90.0             8                 4                 Richter1936
-2076190             camera                   101.4                   1.6             16.0             8                 5                 Wood1937
-2117252a            camera                   100.6                   6.0             50.0             10                6                 Lee1938
-2453260             camera                   100.0                   2.7             28.0             6                 3                 Pestrekov1948
-2645156             camera                   100.0                   3.5             53.2             8                 5                 Tronnier1953
-Smith1992a          camera_hypergon          103.2                   20.0            134.0            5                 3                 Smith1992
-Smith1998a          camera_cooke             52.0                    3.5             45.2             7                 3                 Smith1998
-Smith1998b          camera_tessar            52.0                    3.5             45.2             8                 4                 Smith1998
+filename               lens_type                focal_length(mm)        f-number        FFOV(deg)        N_surfaces        N_elements        ref
+528155                 camera                   239.89                  8               53.2             8                 6                 Goerz1894
+895045a                camera                   93.2                    12.5            60.0             6                 4                 Rudolph1908
+895045b                camera                   79.4                    12.5            60.0             4                 4                 Rudolph1908
+1792917                camera                   100.2                   4.5             65.0             10                6                 Merte1931
+1843519                camera                   100.0                   2.2             16.0             6                 4                 Richter1932
+1975678                camera                   92.6                    1.5             42.0             10                7                 Bertele1934
+1998704a               camera                   100.0                   2.0             13.7             9                 6                 Bertele1935
+1998704b               camera                   100.4                   2.8             18.0             8                 5                 Bertele1935
+2031792a               camera                   66.5                    12.5            90.0             8                 4                 Richter1936
+2031792b               camera                   78.9                    12.5            90.0             8                 4                 Richter1936
+2076190                camera                   101.4                   1.6             16.0             8                 5                 Wood1937
+2117252a               camera                   100.6                   6.0             50.0             10                6                 Lee1938
+2453260                camera                   100.0                   2.7             28.0             6                 3                 Pestrekov1948
+2645156                camera                   100.0                   3.5             53.2             8                 5                 Tronnier1953
+Smith1992a             camera_hypergon          103.2                   20.0            134.0            5                 3                 Smith1992
+Smith1998a             camera_cooke             52.0                    3.5             45.2             7                 3                 Smith1998
+Smith1998b             camera_tessar            52.0                    3.5             45.2             8                 4                 Smith1998
 
-6744570a            cell_phone               7.3                     4.0             60.0             8                 4                 Isono2004
-6744570b            cell_phone               7.2                     4.0             60.0             8                 4                 Isono2004
-6744570c            cell_phone               7.2                     4.0             60.0             8                 4                 Isono2004
-7558005a            cell_phone               4.55                    3.0             64.4             8                 4                 Yasuhiko2009
-7558005b            cell_phone               4.55                    3.0             64.4             8                 4                 Yasuhiko2009
-7558005c            cell_phone               4.58                    3.0             64.4             8                 4                 Yasuhiko2009
-10281683            cell_phone               4.69                    1.7             40.0             12                6                 Yao2019
+6744570a               cell_phone               7.3                     4.0             60.0             8                 4                 Isono2004
+6744570b               cell_phone               7.2                     4.0             60.0             8                 4                 Isono2004
+6744570c               cell_phone               7.2                     4.0             60.0             8                 4                 Isono2004
+7558005a               cell_phone               4.55                    3.0             64.4             8                 4                 Yasuhiko2009
+7558005b               cell_phone               4.55                    3.0             64.4             8                 4                 Yasuhiko2009
+7558005c               cell_phone               4.58                    3.0             64.4             8                 4                 Yasuhiko2009
+10281683               cell_phone               4.69                    1.7             40.0             12                6                 Yao2019
 
-Miyamoto1964        wide_view                8.0                     0.12            180.0            16                10                Miyamoto1964
-Yan2016a            wide_view                16.0                    2.84            180.0            15                8                 Yan2016
-Yan2016b            wide_view_zoom           9.1                     3.2             180.0            17                10                Yan2016
-Yan2016c            wide_view_zoom           12.5                    3.6             180.0            17                10                Yan2016
-Yan2016d            wide_view_zoom           16.2                    4.1             180.0            17                10                Yan2016
-Yan2017a            wide_view_zoom           9.2                     2.8             180.0            19                11                Yan2017
-Yan2017b            wide_view_zoom           10.8                    3.0             180.0            19                11                Yan2017
-Yan2017c            wide_view_zoom           16.1                    3.5             180.0            19                11                Yan2017
+Miyamoto1964           wide_view                8.0                     0.12            180.0            16                10                Miyamoto1964
+Yan2016a               wide_view                16.0                    2.84            180.0            15                8                 Yan2016
+Yan2016b               wide_view_zoom           9.1                     3.2             180.0            17                10                Yan2016
+Yan2016c               wide_view_zoom           12.5                    3.6             180.0            17                10                Yan2016
+Yan2016d               wide_view_zoom           16.2                    4.1             180.0            17                10                Yan2016
+Yan2017a               wide_view_zoom           9.2                     2.8             180.0            19                11                Yan2017
+Yan2017b               wide_view_zoom           10.8                    3.0             180.0            19                11                Yan2017
+Yan2017c               wide_view_zoom           16.1                    3.5             180.0            19                11                Yan2017
 
-9201224a            projection_lens_zoom     19.7                    2.55            59.2             12                6                 Kubota2015
-9201224b            projection_lens_zoom     22.7                    2.63            52.8             12                6                 Kubota2015
-9201224c            projection_lens_zoom     25.6                    2.97            46.4             12                6                 Kubota2015
+9201224a               projection_lens_zoom     19.7                    2.55            59.2             12                6                 Kubota2015
+9201224b               projection_lens_zoom     22.7                    2.63            52.8             12                6                 Kubota2015
+9201224c               projection_lens_zoom     25.6                    2.97            46.4             12                6                 Kubota2015
 
-JWST                telescope                -116,000                16.6            0.113            3                 3                 ???
-WIYN                telescope                22,000                  3.1             0.400            2                 2                 ???
-Keck_f13            telescope                150,000                 13.66           0.04             2                 2                 Keck2021
+JWST                   telescope                -116,000                16.6            0.113            3                 3                 ???
+WIYN                   telescope                22,000                  3.1             0.400            2                 2                 ???
+Keck_f13               telescope                150,000                 13.66           0.04             2                 2                 Keck2021
 
-Shafer1980          x-ray telescope          125                     N/A             1.0              2                 2                 Shafer1980
-Shafer1980b         x-ray telescope          125                     N/A             1.0              2                 2                 Shafer1980
+Shafer1980             x-ray telescope          125                     N/A             1.0              2                 2                 Shafer1980
+Shafer1980b            x-ray telescope          125                     N/A             1.0              2                 2                 Shafer1980
 
 -------------------------------------------------------------------------------------------------------------------------------------
                                                                      object_space
-filename            lens_type                focal_length(mm)        NA                FFOV(mm)        N_surfaces        N_elements        ref
-1791276             microscope_objective     99.8                    0.15              20.0            10                5                 Konig1931
-2050024             microscope_objective     -2.60                   0.40              0.300           15                8                 Sonnefeld1936
-4037934             microscope_objective      1.00                   0.67              0.112           12                7                 Matsubara1977
-4505553             microscope_objective      1.62                   0.64              0.514           17                11                Asoma1985
-5000548a            microscope_objective     16.3                    0.25              0.8             8                 4                 Mercado1991
-5000548b            microscope_objective     17.8                    0.25              0.8             8                 4                 Mercado1991
-6016226             microscope_objective      1.0                    0.56              1.673           28                18                Arisawa2000
-Kidger2004          microscope_objective      4.5                    0.55              0.315           16                9                 Kidger2004
-Yu2024              microscope_objective     20.0                    0.5               6.6             10                6                 Yu2024
+filename               lens_type                focal_length(mm)        NA                FFOV(mm)        N_surfaces        N_elements        ref
+1791276                microscope_objective     99.8                    0.15              20.0            10                5                 Konig1931
+2050024                microscope_objective     -2.60                   0.40              0.300           15                8                 Sonnefeld1936
+4037934                microscope_objective      1.00                   0.67              0.112           12                7                 Matsubara1977
+4505553                microscope_objective      1.62                   0.64              0.514           17                11                Asoma1985
+5000548a               microscope_objective     16.3                    0.25              0.8             8                 4                 Mercado1991
+5000548b               microscope_objective     17.8                    0.25              0.8             8                 4                 Mercado1991
+6016226                microscope_objective      1.0                    0.56              1.673           28                18                Arisawa2000
+Kidger2004             microscope_objective      4.5                    0.55              0.315           16                9                 Kidger2004
+Yu2024                 microscope_objective     20.0                    0.5               6.6             10                6                 Yu2024
 
-5852515a            stereo_microscope_obj    300.0                   0.08              8.0             7                 4                 Kurata1998
-5852515b            stereo_microscope_obj    300.0                   0.08              8.0             11                6                 Kurata1998
-5852515c            stereo_microscope_obj    200.0                   0.12              8.0             11                6                 Kurata1998
-7643216a            stereo_microscope_obj    50.7                    0.49              8.0             14                8                 Winterot2010
-7643216b            stereo_microscope_obj    100.5                   0.27              12.0            10                6                 Winterot2010
-7643216c            stereo_microscope_obj    80.0                    0.33              10.0            14                8                 Winterot2010
-7643216d            stereo_microscope_obj    67.2                    0.38              10.0            14                8                 Winterot2010
+5852515a               stereo_microscope_obj    300.0                   0.08              8.0             7                 4                 Kurata1998
+5852515b               stereo_microscope_obj    300.0                   0.08              8.0             11                6                 Kurata1998
+5852515c               stereo_microscope_obj    200.0                   0.12              8.0             11                6                 Kurata1998
+7643216a               stereo_microscope_obj    50.7                    0.49              8.0             14                8                 Winterot2010
+7643216b               stereo_microscope_obj    100.5                   0.27              12.0            10                6                 Winterot2010
+7643216c               stereo_microscope_obj    80.0                    0.33              10.0            14                8                 Winterot2010
+7643216d               stereo_microscope_obj    67.2                    0.38              10.0            14                8                 Winterot2010
 
-Liang2002a          endoscope_objective      -27.88                  0.78              0.5             16                8                 Liang2002
-Liang2002b          endoscope_objective      1.49                    0.4               0.25            6                 3                 Liang2002
-Liang2006a          endoscope_objective      0.78                    0.4               0.24            6                 3                 Liang2006
-Liang2006b          endoscope_objective      0.38                    0.6               0.24            8                 4                 Liang2006
-Liang2006c          endoscope_objective      1.09                    0.6               0.32            8                 4                 Liang2006
-Liang2006d          endoscope_objective      0.37                    0.6               0.22            8                 4                 Liang2006
-Liang2006e          endoscope_objective      0.38                    0.9               0.22            8                 4                 Liang2006
+Liang2002a             endoscope_objective      -27.88                  0.78              0.5             16                8                 Liang2002
+Liang2002b             endoscope_objective      1.49                    0.4               0.25            6                 3                 Liang2002
+Liang2006a             endoscope_objective      0.78                    0.4               0.24            6                 3                 Liang2006
+Liang2006b             endoscope_objective      0.38                    0.6               0.24            8                 4                 Liang2006
+Liang2006c             endoscope_objective      1.09                    0.6               0.32            8                 4                 Liang2006
+Liang2006d             endoscope_objective      0.37                    0.6               0.22            8                 4                 Liang2006
+Liang2006e             endoscope_objective      0.38                    0.9               0.22            8                 4                 Liang2006
 
-Dyson1959           projection_lens_Dyson    350.5                   0.47              4.0             3                 2                 Dyson1959
+Dyson1959              projection_lens_Dyson    350.5                   0.47              4.0             3                 2                 Dyson1959
 
-                                                                     object_space      object          image
-filename            lens_type                focal_length(mm)        NA                FFOV(mm)        FFOV(mm)        N_surfaces        N_elements        ref
-7301707             lithography_lens                                 0.68              106.0           26.5            62                31                Shafer2007
-7301707-spherical   lithography_lens                                 0.68              106.0           26.5            62                31                Shafer2007 (but using only spherical surfaces)
+                                                                        object_space      object          image
+filename               lens_type                focal_length(mm)        NA                FFOV(mm)        FFOV(mm)        N_surfaces        N_elements        ref
+7301707                lithography_lens                                 0.68              106.0           26.5            62                31                Shafer2007
+7301707-spherical      lithography_lens                                 0.68              106.0           26.5            62                31                Shafer2007 (but using only spherical surfaces)
 
-                                                                     image_space
-filename            lens_type                focal_length(mm)        f-number        FFOV(deg)        N_surfaces        N_elements        ref
-7821720a            endoscope_objective      0.96                    1.90            170.0            11                6                 Wang2010
-7821720b            endoscope_objective      0.96                    1.35            170.0            10                5                 Wang2010
-7821720c            endoscope_objective      1.28                    2.79            150.0            10                5                 Wang2010
-
--------------------------------------------------------------------------------------------------------------------------------------
-                                                                    image_space
-filename             lens_type               total_track(mm)        f-number        wavelength_range(nm)    spectrum_dispersion(mm)        N_surfaces        N_elements        ref
-czt_spect            spectrometer_CZT        ???                    ???             200                     ???                            3                 3                 Czerny1930
-czt_spectCC          spectrometer_CZT        ???                    ???             200                     ???                            5                 4                 Lee2010d
-Montero-Orille2011   spectrometer_Dyson      181                    1.5             1300                    10.0                           3                 2                 Montero-Orille2011
-double_amici_spect   spectrometer_dbl_amici  296                    8.0             300                     9.4                            8
+                                                                        image_space
+filename               lens_type                focal_length(mm)        f-number        FFOV(deg)        N_surfaces        N_elements        ref
+7821720a               endoscope_objective      0.96                    1.90            170.0            11                6                 Wang2010
+7821720b               endoscope_objective      0.96                    1.35            170.0            10                5                 Wang2010
+7821720c               endoscope_objective      1.28                    2.79            150.0            10                5                 Wang2010
 
 -------------------------------------------------------------------------------------------------------------------------------------
                                                                     image_space
-filename             system_type             total_track(mm)        f-number        N_surfaces      N_elements
-schlieren_system     Schlieren imaging       3048                   5               8               2
+filename                lens_type               total_track(mm)        f-number        wavelength_range(nm)    spectrum_dispersion(mm)        N_surfaces        N_elements        ref
+czt_spect               spectrometer_CZT        ???                    ???             200                     ???                            3                 3                 Czerny1930
+czt_spectCC             spectrometer_CZT        ???                    ???             200                     ???                            5                 4                 Lee2010d
+Montero-Orille2011      spectrometer_Dyson      181                    1.5             1300                    10.0                           3                 2                 Montero-Orille2011
+double_amici_spect      spectrometer_dbl_amici  296                    8.0             300                     9.4                            8
+spherical_grating_spect spectrometer_curv_grat  400                    5.0             200                     12.7                           1                 1
+
+-------------------------------------------------------------------------------------------------------------------------------------
+                                                                    image_space
+filename                system_type             total_track(mm)        f-number        N_surfaces      N_elements
+schlieren_system        Schlieren imaging       3048                   5               8               2
