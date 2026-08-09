@@ -1,0 +1,707 @@
+System/Prescription Data
+
+File : C:\Users\nh\Desktop\Zemax Echelle model\echelle_spect_amici2.zmx
+Title: 
+Date : 2026-08-09
+Configuration 2 of 3
+
+GENERAL LENS DATA:
+
+Surfaces                : 	              21
+Stop                    : 	               4
+System Aperture         : 	Entrance Pupil Diameter = 	10
+Fast Semi-Diameters     :	On 
+Field Unpolarized       :	On
+Convert thin film phase to ray equivalent :	On 
+J/E Conversion Method   :	X Axis Reference  
+Glass Catalogs          : 	SCHOTT
+Ray Aiming              :	Off
+Apodization             : 	Uniform, factor = 	  0.00000E+000
+Reference OPD           :	Exit Pupil  
+Paraxial Rays Setting   :	Ignore Coordinate Breaks  
+Method to Compute F/#   :	Tracing Rays  
+Print Coordinate Breaks :	On
+Multi-Threading         :	On
+OPD Modulo 2 Pi         :	Off
+Temperature (C)         : 	   2.00000E+001
+Pressure (ATM)          : 	   1.00000E+000
+Adjust Index Data To Environment  :	Off
+Effective Focal Length  :	             -75	(in air at system temperature and pressure)
+Effective Focal Length  :	             -75	(in image space)
+Back Focal Length       :	            -300
+Total Track             :	             580
+Image Space F/#         :	             7.5
+Paraxial Working F/#    :	             7.5
+Working F/#             :	        6.602627
+Image Space NA          :	      0.06651901
+Object Space NA         :	          5e-010
+Stop Radius             :	             -10
+Paraxial Image Height   :	               0
+Paraxial Magnification  :	               0
+Entrance Pupil Diameter :	              10
+Entrance Pupil Position :	            -125
+Exit Pupil Diameter     :	        9.585834
+Exit Pupil Position     :	        -56.8889
+Field Type              : 	Angle in degrees
+Maximum Radial Field    :	               0
+Primary Wavelength [µm] :	            0.65
+Angular Magnification   :	               0
+Lens Units              :	   Millimeters
+Source Units            :	   Watts 
+Analysis Units          :	   Watts/cm^2 
+Afocal Mode Units       :	   milliradians
+MTF Units               :	   cycles/millimeter 
+Include Calculated Data in Session File  :	On 
+ 
+Fields          : 1
+Field Type              : 	Angle in degrees
+ #  	   X-Value     	  Y-Value     	   Weight
+ 1 	      0.000000 	      0.000000 	      1.000000
+ 
+Vignetting Factors
+ #     	VDX     	VDY     	VCX     	VCY     	VAN
+ 1 	 0.000000 	 0.000000 	 0.000000 	 0.000000 	 0.000000
+ 
+Wavelengths     : 5
+Units: µm
+ #       	Value       	Weight
+ 1 	      0.450000 	      1.000000
+ 2 	      0.550000 	      1.000000
+ 3 	      0.650000 	      1.000000
+ 4 	      0.750000 	      1.000000
+ 5 	      0.850000 	      1.000000
+ 
+SURFACE DATA SUMMARY:
+
+Surf       	Type        	Radius        	Thickness           	Glass        	Diameter        	Conic        	Comment
+ OBJ	 STANDARD	       Infinity	       Infinity	                     	             0	              0	 
+   1	 STANDARD	       Infinity	             25	                     	            10	              0	 
+   2	 PARAXIAL	              -	            100	                     	            10	              -	 
+   3	 STANDARD	       Infinity	            200	                     	            10	              0	 slit
+ STO	 PARAXIAL	              -	             10	                     	            20	              -	 
+   5	 COORDBRK	              -	              0	                     	             -	              -	 prism_front
+   6	 STANDARD	       Infinity	             15	              N-LAK22	      20.80599	              0	 
+   7	 COORDBRK	              -	              0	                     	             -	              -	 
+   8	 COORDBRK	              -	              0	                     	             -	              -	 
+   9	 STANDARD	       Infinity	             18	                 SF66	      26.47063	              0	 
+  10	 COORDBRK	              -	              0	                     	             -	              -	 
+  11	 STANDARD	       Infinity	             12	              N-LAK22	      27.30631	              0	 
+  12	 COORDBRK	              -	              0	                     	             -	              -	 
+  13	 COORDBRK	              -	              0	                     	             -	              -	 
+  14	 STANDARD	       Infinity	             15	                     	      22.11529	              0	 
+  15	 COORDBRK	              -	            185	                     	             -	              -	 
+  16	 COORDBRK	              -	              0	                     	             -	              -	 
+  17	 DGRATING	       Infinity	              0	               MIRROR	            50	              0	 echelle
+  18	 COORDBRK	              -	           -150	                     	             -	              -	 
+  19	 COORDBRK	              -	              0	                     	             -	              -	 
+  20	 PARAXIAL	              -	           -150	                     	       127.519	              -	 
+ IMA	 STANDARD	       Infinity	               	                     	      93.17863	              0	 
+ 
+
+
+SURFACE DATA DETAIL:
+
+Surface OBJ STANDARD 
+
+Surface   1 STANDARD 
+
+Surface   2 PARAXIAL 
+Focal length             :              100
+OPD Mode                 :                1
+
+Surface   3 STANDARD slit
+
+Surface STO PARAXIAL 
+Focal length             :              200
+OPD Mode                 :                1
+
+Surface   5 COORDBRK prism_front
+Decenter X               :                0
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :               16
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   6 STANDARD 
+
+Surface   7 COORDBRK 
+Decenter X               :                0
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :              -16
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   8 COORDBRK 
+Decenter X               :       -2.5246111
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :           -32.56
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface   9 STANDARD 
+
+Surface  10 COORDBRK 
+Decenter X               :        11.602367
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :            65.12
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  11 STANDARD 
+
+Surface  12 COORDBRK 
+Decenter X               :       -9.4832299
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :           -32.56
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  13 COORDBRK 
+Decenter X               :                0
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :              -16
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  14 STANDARD 
+
+Surface  15 COORDBRK 
+Decenter X               :        4.5966792
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :               16
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  16 COORDBRK 
+Decenter X               :                0
+Decenter Y               :                0
+Tilt About X             :               40
+Tilt About Y             :                0
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  17 DGRATING echelle
+Mirror Substrate         : Curved, Thickness = 1.00000E+000
+Lines / µm               :            0.025
+Diffraction Order        :              -55
+Aperture                 : Floating Aperture
+Maximum Radius           :               25
+
+Surface  18 COORDBRK 
+Decenter X               :        3.3501012
+Decenter Y               :                0
+Tilt About X             :                0
+Tilt About Y             :       -18.246898
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  19 COORDBRK 
+Decenter X               :       -46.361414
+Decenter Y               :       -40.722297
+Tilt About X             :       -15.188687
+Tilt About Y             :        16.608765
+Tilt About Z             :                0
+Order                    : Decenter then tilt
+
+Surface  20 PARAXIAL 
+Focal length             :              150
+OPD Mode                 :                1
+
+Surface IMA STANDARD 
+ 
+EDGE THICKNESS DATA:
+
+Surf        	 X-Edge        	 Y-Edge
+   1 	     25.000000 	     25.000000
+   2 	    100.000000 	    100.000000
+   3 	    200.000000 	    200.000000
+ STO 	     10.000000 	     10.000000
+   5 	      0.000000 	      0.000000
+   6 	     15.000000 	     15.000000
+   7 	      0.000000 	      0.000000
+   8 	      0.000000 	      0.000000
+   9 	     18.000000 	     18.000000
+  10 	      0.000000 	      0.000000
+  11 	     12.000000 	     12.000000
+  12 	      0.000000 	      0.000000
+  13 	      0.000000 	      0.000000
+  14 	     15.000000 	     15.000000
+  15 	    185.000000 	    185.000000
+  16 	      0.000000 	      0.000000
+  17 	      0.000000 	      0.000000
+  18 	   -150.000000 	   -150.000000
+  19 	      0.000000 	      0.000000
+  20 	   -150.000000 	   -150.000000
+ IMA 	      0.000000 	      0.000000
+ 
+MULTI-CONFIGURATION DATA:
+
+Configuration   1:
+
+  1 Param 2    17 :           -54 
+  2 Param 3    18 :      -18.2469 
+  3 Comment       :                        
+
+Configuration   2:
+
+  1 Param 2    17 :           -55 
+  2 Param 3    18 :             0 
+  3 Comment       :                        
+
+Configuration   3:
+
+  1 Param 2    17 :           -56 
+  2 Param 3    18 :      -18.2469 
+  3 Comment       :                        
+ 
+SOLVE AND VARIABLE DATA:
+
+ Semi Diameter   3      : Fixed
+ Parameter  1 Surf   8  : Solve, Chief ray follow field 1, wavelength 0
+ Parameter  1 Surf  10  : Solve, Chief ray follow field 1, wavelength 0
+ Glass of  11           : Pickup from 6
+ Parameter  1 Surf  12  : Solve, Chief ray follow field 1, wavelength 0
+ Parameter  1 Surf  15  : Solve, Chief ray follow field 1, wavelength 0
+ Semi Diameter  17      : Fixed
+ Parameter  1 Surf  18  : Solve, Chief ray follow field 1, wavelength 0
+ Parameter  1 Surf  19  : Solve, Chief ray follow field 1, wavelength 0
+ Parameter  2 Surf  19  : Solve, Chief ray follow field 1, wavelength 0
+ Parameter  3 Surf  19  : Solve, Chief ray follow field 1, wavelength 0
+ 
+INDEX OF REFRACTION DATA:
+
+System Temperature:   20.0000 Celsius
+System Pressure   :    1.0000 Atmospheres
+Absolute air index:    1.000272 at wavelength 0.650000 µm
+Index data is relative to air at the system temperature and pressure.
+Wavelengths are measured in air at the system temperature and pressure.
+ 
+Surf                 	 Glass 	   Temp      	Pres  	   0.45000000	   0.55000000	   0.65000000	   0.75000000	   0.85000000
+   0 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+   1 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+   2 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+   3 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+   4 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+   5 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+   6 	               N-LAK22 	  20.00 	    1.00  	  1.6635931956	  1.6536179450	  1.6478788161	  1.6441404965	  1.6414574891	          
+   7 	               <CRD BRK>        	        	  1.6635931956	  1.6536179450	  1.6478788161	  1.6441404965	  1.6414574891	          
+   8 	               <CRD BRK>        	        	  1.6635931956	  1.6536179450	  1.6478788161	  1.6441404965	  1.6414574891	          
+   9 	                  SF66 	  20.00 	    1.00  	  1.9731531706	  1.9321433333	  1.9112953143	  1.8989214757	  1.8908261155	 was replaced by N-SF66
+  10 	               <CRD BRK>        	        	  1.9731531706	  1.9321433333	  1.9112953143	  1.8989214757	  1.8908261155	 was replaced by N-SF66
+  11 	               N-LAK22 	  20.00 	    1.00  	  1.6635931956	  1.6536179450	  1.6478788161	  1.6441404965	  1.6414574891	          
+  12 	               <CRD BRK>        	        	  1.6635931956	  1.6536179450	  1.6478788161	  1.6441404965	  1.6414574891	          
+  13 	               <CRD BRK>        	        	  1.6635931956	  1.6536179450	  1.6478788161	  1.6441404965	  1.6414574891	          
+  14 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  15 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  16 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  17 	                MIRROR 	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  18 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  19 	               <CRD BRK>        	        	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  20 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+  21 	                       	  20.00 	    1.00  	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	  1.0000000000	
+ 
+THERMAL COEFFICIENT OF EXPANSION DATA:
+
+Surf                  	 Glass     	   TCE * 10E-6
+  0  	                         	  0.0000000000
+  1  	                         	  0.0000000000
+  2  	                         	  0.0000000000
+  3  	                         	  0.0000000000
+  4  	                         	  0.0000000000
+  5 	               <CRD BRK>  	  0.0000000000
+  6  	               N-LAK22   	  6.6000000000	          
+  7 	               <CRD BRK>  	  6.6000000000	          
+  8 	               <CRD BRK>  	  6.6000000000	          
+  9  	                  SF66   	  9.0100000000	 was replaced by N-SF66
+ 10 	               <CRD BRK>  	  9.0100000000	 was replaced by N-SF66
+ 11  	               N-LAK22   	  6.6000000000	          
+ 12 	               <CRD BRK>  	  6.6000000000	          
+ 13 	               <CRD BRK>  	  6.6000000000	          
+ 14  	                         	  0.0000000000
+ 15 	               <CRD BRK>  	  0.0000000000
+ 16 	               <CRD BRK>  	  0.0000000000
+ 17  	                MIRROR   	  0.0000000000
+ 18 	               <CRD BRK>  	  0.0000000000
+ 19 	               <CRD BRK>  	  0.0000000000
+ 20  	                         	  0.0000000000
+ 21  	                         	  0.0000000000
+ 
+GLOBAL VERTEX COORDINATES, ORIENTATIONS, AND ROTATION/OFFSET MATRICES:
+
+Reference Surface: 17
+
+Surf           	R11           	R12            	R13                 	X          	   Tilt X
+               	R21            	R22            	R23                 	Y          	   Tilt Y
+               	R31            	R32            	R33                 	Z          	   Tilt Z
+
+  1 	  1.0000000000 	  0.0000000000 	  0.0000000000 	-4.509744115E-001 	-4.000000000E+001 	
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-3.771476701E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-4.494670908E+002 	 0.000000000E+000
+
+  2 	  1.0000000000 	  0.0000000000 	  0.0000000000 	-4.509744115E-001 	-4.000000000E+001 	
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-3.610779799E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-4.303159798E+002 	 0.000000000E+000
+
+  3 	  1.0000000000 	  0.0000000000 	  0.0000000000 	-4.509744115E-001 	-4.000000000E+001 	slit
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-2.967992189E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-3.537115354E+002 	 0.000000000E+000
+
+  4 	  1.0000000000 	  0.0000000000 	  0.0000000000 	-4.509744115E-001 	-4.000000000E+001 	
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-1.682416970E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-2.005026468E+002 	 0.000000000E+000
+
+  5 	  0.9612616959 	  0.0000000000 	  0.2756373558 	-4.509744115E-001 	-4.000000000E+001 	prism_front
+    	 -0.1771762771 	  0.7660444431 	  0.6178871078 	-1.618138209E+002 	 1.600000000E+001
+    	 -0.2111504647 	 -0.6427876097 	  0.7363691806 	-1.928422024E+002 	 0.000000000E+000
+
+  6 	  0.9612616959 	  0.0000000000 	  0.2756373558 	-4.509744115E-001 	-4.000000000E+001 	
+    	 -0.1771762771 	  0.7660444431 	  0.6178871078 	-1.618138209E+002 	 1.600000000E+001
+    	 -0.2111504647 	 -0.6427876097 	  0.7363691806 	-1.928422024E+002 	 0.000000000E+000
+
+  7 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 3.683585926E+000 	-4.000000000E+001 	
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-1.525455143E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-1.817966647E+002 	 0.000000000E+000
+
+  8 	  0.8428283246 	  0.0000000000 	 -0.5381825110 	 1.158974862E+000 	-4.000000000E+001 	
+    	  0.3459370498 	  0.7660444431 	  0.5417596042 	-1.525455143E+002 	-3.256000000E+001
+    	  0.4122717220 	 -0.6427876097 	  0.6456439546 	-1.817966647E+002 	 0.000000000E+000
+
+  9 	  0.8428283246 	  0.0000000000 	 -0.5381825110 	 1.158974862E+000 	-4.000000000E+001 	
+    	  0.3459370498 	  0.7660444431 	  0.5417596042 	-1.525455143E+002 	-3.256000000E+001
+    	  0.4122717220 	 -0.6427876097 	  0.6456439546 	-1.817966647E+002 	 0.000000000E+000
+
+ 10 	  0.8428283246 	  0.0000000000 	  0.5381825110 	 1.250493331E+000 	-4.000000000E+001 	
+    	 -0.3459370498 	  0.7660444431 	  0.5417596042 	-1.387801527E+002 	 3.256000000E+001
+    	 -0.4122717220 	 -0.6427876097 	  0.6456439546 	-1.653917456E+002 	 0.000000000E+000
+
+ 11 	  0.8428283246 	  0.0000000000 	  0.5381825110 	 1.250493331E+000 	-4.000000000E+001 	
+    	 -0.3459370498 	  0.7660444431 	  0.5417596042 	-1.387801527E+002 	 3.256000000E+001
+    	 -0.4122717220 	 -0.6427876097 	  0.6456439546 	-1.653917456E+002 	 0.000000000E+000
+
+ 12 	  1.0000000000 	  0.0000000000 	  0.0000000000 	-2.840513102E-001 	-4.000000000E+001 	
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-1.289984369E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-1.537343506E+002 	 0.000000000E+000
+
+ 13 	  0.9612616959 	  0.0000000000 	 -0.2756373558 	-2.840513102E-001 	-4.000000000E+001 	
+    	  0.1771762771 	  0.7660444431 	  0.6178871078 	-1.289984369E+002 	-1.600000000E+001
+    	  0.2111504647 	 -0.6427876097 	  0.7363691806 	-1.537343506E+002 	 0.000000000E+000
+
+ 14 	  0.9612616959 	  0.0000000000 	 -0.2756373558 	-2.840513102E-001 	-4.000000000E+001 	
+    	  0.1771762771 	  0.7660444431 	  0.6178871078 	-1.289984369E+002 	-1.600000000E+001
+    	  0.2111504647 	 -0.6427876097 	  0.7363691806 	-1.537343506E+002 	 0.000000000E+000
+
+ 15 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	-4.000000000E+001 	
+    	  0.0000000000 	  0.7660444431 	  0.6427876097 	-1.189157078E+002 	 0.000000000E+000
+    	  0.0000000000 	 -0.6427876097 	  0.7660444431 	-1.417182220E+002 	 0.000000000E+000
+
+ 16 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 0.000000000E+000 	 0.000000000E+000
+
+ 17 	  1.0000000000 	  0.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000 	echelle
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	 0.000000000E+000
+    	  0.0000000000 	  0.0000000000 	  1.0000000000 	 0.000000000E+000 	 0.000000000E+000
+
+ 18 	  0.9497160792 	  0.0000000000 	 -0.3131123903 	 3.350101166E+000 	 0.000000000E+000 	
+    	  0.0000000000 	  1.0000000000 	  0.0000000000 	 0.000000000E+000 	-1.824689807E+001
+    	  0.3131123903 	  0.0000000000 	  0.9497160792 	 0.000000000E+000 	 0.000000000E+000
+
+ 19 	  0.9964649716 	  0.0820350200 	 -0.0181056866 	 6.286779128E+000 	-1.454314200E+001 	
+    	 -0.0748883710 	  0.9650682428 	  0.2510677569 	-4.072229721E+001 	-1.037436111E+000
+    	  0.0380695716 	 -0.2488243199 	  0.9678001682 	-1.569737451E+002 	-4.706321581E+000
+
+ 20 	  0.9964649716 	  0.0820350200 	 -0.0181056866 	 6.286779128E+000 	-1.454314200E+001 	
+    	 -0.0748883710 	  0.9650682428 	  0.2510677569 	-4.072229721E+001 	-1.037436111E+000
+    	  0.0380695716 	 -0.2488243199 	  0.9678001682 	-1.569737451E+002 	-4.706321581E+000
+
+ 21 	  0.9964649716 	  0.0820350200 	 -0.0181056866 	 9.002632111E+000 	-1.454314200E+001 	
+    	 -0.0748883710 	  0.9650682428 	  0.2510677569 	-7.838246075E+001 	-1.037436111E+000
+    	  0.0380695716 	 -0.2488243199 	  0.9678001682 	-3.021437703E+002 	-4.706321581E+000
+
+ 
+GLOBAL SURFACE CENTER OF CURVATURE POINTS:
+
+Reference Surface: 17
+
+Surf             	X              	Y              	Z
+  1              	-              	-              	- 	
+  2              	-              	-              	- 	
+  3              	-              	-              	- 	slit
+  4              	-              	-              	- 	
+  5              	-              	-              	- 	prism_front
+  6              	-              	-              	- 	
+  7              	-              	-              	- 	
+  8              	-              	-              	- 	
+  9              	-              	-              	- 	
+ 10              	-              	-              	- 	
+ 11              	-              	-              	- 	
+ 12              	-              	-              	- 	
+ 13              	-              	-              	- 	
+ 14              	-              	-              	- 	
+ 15              	-              	-              	- 	
+ 16              	-              	-              	- 	
+ 17              	-              	-              	- 	echelle
+ 18              	-              	-              	- 	
+ 19              	-              	-              	- 	
+ 20              	-              	-              	- 	
+ 21              	-              	-              	- 	
+ 
+ELEMENT VOLUME DATA:
+
+For centered elements with plane or spherical circular faces, exact
+volumes are computed by assuming edges are squared up to the larger
+of the front and back radial aperture.
+
+For all other elements, approximate volumes are numerically integrated
+to 0.1% accuracy. Zero volume means the volume cannot be accurately computed.
+
+Single elements that are duplicated in the Lens Data Editor
+for ray tracing purposes may be listed more than once yielding
+incorrect total mass estimates.
+
+                            	 Volume cc   	Density g/cc       	Mass g
+Element surf   6 to 7   	      0.000000 	      3.768000 	      0.000000
+Element surf   7 to 8   	      0.000000 	      0.000000 	      0.000000
+Element surf   8 to 9   	      0.000000 	      0.000000 	      0.000000
+Element surf   9 to 10  	      0.000000 	      6.025000 	      0.000000
+Element surf  10 to 11  	      0.000000 	      0.000000 	      0.000000
+Element surf  11 to 12  	      0.000000 	      3.768000 	      0.000000
+Element surf  12 to 13  	      0.000000 	      0.000000 	      0.000000
+Element surf  13 to 14  	      0.000000 	      0.000000 	      0.000000
+Total Mass:                                           	      0.000000
+ 
+F/# DATA:
+
+F/# calculations consider vignetting factors and ignore surface apertures.
+
+     Wavelength:	     	    0.450000    	     	    0.550000    	     	    0.650000    	
+#	            Field       	Tan       	Sag      	Tan       	Sag      	Tan       	Sag
+1	0.0000, 0.0000 (deg):	   5.5692 	   7.5677	   5.7507 	   7.5214	   5.9557 	   7.5197
+
+     Wavelength:	     	    0.750000    	     	    0.850000    	
+#	            Field       	Tan       	Sag      	Tan       	Sag
+1	0.0000, 0.0000 (deg):	   6.1893 	   7.5251	   6.4750 	   7.5318
+ 
+CARDINAL POINTS:
+
+Object space positions are measured with respect to surface 1.
+Image space positions are measured with respect to the image surface.
+The index in both the object space and image space is considered.
+
+                                 	Object Space           	Image Space
+W = 	0.450000	
+Focal Length          : 	          75.000000 	          75.000000
+Focal Planes          : 	         -66.161904 	           0.000000
+Principal Planes      : 	        -141.161904 	         -75.000000
+Anti-Principal Planes : 	           8.838096 	          75.000000
+Nodal Planes          : 	           8.838096 	          75.000000
+Anti-Nodal Planes     : 	        -141.161904 	         -75.000000
+
+W = 	0.550000	
+Focal Length          : 	          75.000000 	          75.000000
+Focal Planes          : 	         -66.089022 	           0.000000
+Principal Planes      : 	        -141.089022 	         -75.000000
+Anti-Principal Planes : 	           8.910978 	          75.000000
+Nodal Planes          : 	           8.910978 	          75.000000
+Anti-Nodal Planes     : 	        -141.089022 	         -75.000000
+
+W = 	0.650000	(Primary)
+Focal Length          : 	          75.000000 	          75.000000
+Focal Planes          : 	         -66.049401 	           0.000000
+Principal Planes      : 	        -141.049401 	         -75.000000
+Anti-Principal Planes : 	           8.950599 	          75.000000
+Nodal Planes          : 	           8.950599 	          75.000000
+Anti-Nodal Planes     : 	        -141.049401 	         -75.000000
+
+W = 	0.750000	
+Focal Length          : 	          75.000000 	          75.000000
+Focal Planes          : 	         -66.024745 	           0.000000
+Principal Planes      : 	        -141.024745 	         -75.000000
+Anti-Principal Planes : 	           8.975255 	          75.000000
+Nodal Planes          : 	           8.975255 	          75.000000
+Anti-Nodal Planes     : 	        -141.024745 	         -75.000000
+
+W = 	0.850000	
+Focal Length          : 	          75.000000 	          75.000000
+Focal Planes          : 	         -66.007889 	           0.000000
+Principal Planes      : 	        -141.007889 	         -75.000000
+Anti-Principal Planes : 	           8.992111 	          75.000000
+Nodal Planes          : 	           8.992111 	          75.000000
+Anti-Nodal Planes     : 	        -141.007889 	         -75.000000
+ 
+PHYSICAL OPTICS PROPAGATION SETTINGS SUMMARY:
+
+ OBJ STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   1 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   2 PARAXIAL                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   3 STANDARD                slit
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ STO PARAXIAL                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   5 COORDBRK         prism_front
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   6 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   7 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   8 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+   9 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  10 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  11 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  12 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  13 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  14 STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  15 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  16 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  17 DGRATING             echelle
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  18 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  19 COORDBRK                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+  20 PARAXIAL                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ IMA STANDARD                    
+Use Rays To Propagate To Next Surface  : Off
+Recompute Pilot Beam                   : Off
+Do Not Rescale Beam Size Using Ray Data: Off
+Use Angular Spectrum Propagator        : Off
+Use X-Axis Reference                   : Off
+Output Pilot Radius                    : Best Fit
+ 
+FILES USED:
+
+Zemax File
+  C:\Users\nh\Desktop\Zemax Echelle model\echelle_spect_amici2.zmx
+Session File
+  C:\Users\nh\Desktop\Zemax Echelle model\echelle_spect_amici2.ZDA
+Glass Catalogs
+  C:\Users\nh\Documents\Zemax\GLASSCAT\SCHOTT.AGF
+Coating Data
+  C:\Users\nh\Documents\Zemax\COATINGS\COATING.DAT
+ABg Data
+  C:\Users\nh\Documents\Zemax\ABG_DATA\ABG_DATA.DAT
