@@ -97,6 +97,13 @@ Montero-Orille2011      spectrometer_Dyson      181                    1.5      
 double_amici_spect      spectrometer_dbl_amici  296                    8.0             300                     9.4                            8
 spherical_grating_spect spectrometer_curv_grat  400                    5.0             200                     12.7                           1                 1
 toroidal_grating_spect  spectrometer_curv_grat  400                    5.0             200                     12.7                           1                 1
+prism_spect             prism_spectrometer      135                    5.8             200                     5.4                            4                 2
+dblamici_prism_spect    dbl-amici_prism_spect   170                    5.0             200                     3.8                            6                 4
+dblamici_prism_spect2   dbl-amici_prism_spect   189                    5.0             200                     7.5                            6                 4
+echelle_spect_startpt   echelle_spectrometer    525                    6.7             200                     29.0                           3                 2
+echelle_spect_prism     echelle_spectrometer    545                    8.0             200                     68.0                           5                 3
+echelle_prism_amici1    echelle_spectrometer    594                    6.7             400                     46.0                           7                 5
+echelle_prism_amici2    echelle_spectrometer    580                    6.6             400                     47.0                           7                 5
 
 -------------------------------------------------------------------------------------------------------------------------------------
                                                                     image_space
